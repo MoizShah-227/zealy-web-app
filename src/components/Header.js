@@ -1,6 +1,7 @@
 import React from 'react'
 import '../components_CSS/Header.css';
 import sideimg from '../Imges/portal-lg.9a17dc83.svg'
+import sideimg2 from '../Imges/Header.sidepic.jpg'
 const Header = () => {
   return (
     <div className=" components-wrapper" >
@@ -25,6 +26,9 @@ const Header = () => {
             <div className=" sideimg col-lg-6 col-md-12">
                 <img src={sideimg}/>
             </div>
+
+                
+
            </div>
       </div>
     </div>

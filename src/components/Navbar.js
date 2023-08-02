@@ -15,16 +15,22 @@ const Navbar = () => {
             <ul className="navbar-nav">
 
             <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a className="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Resources
                 </a>
-                <div className=" dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                {/* <a ><img src={navimg}/></a> */}
+
+                <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 
-                <a className="dropdown-item" href="#"><h6>Help Center</h6><p>Answer to your Questions</p></a>
-                <a className="dropdown-item" href="#"><h6>Events</h6><p>Join us for a live event</p></a>
-                <a className="dropdown-item" href="#"><h6>Blog</h6><p>Latest on web3 community</p></a>
+                <div className="row">
+                    <div className="col-6 res-img"></div>
+                    
+                    <div className="col-6 p-0 m-0">
+                    <a className="dropdown-item" href="#"><h6>Help Center</h6><p>Answer to your Questions</p></a>
+                    <a className="dropdown-item" href="#"><h6>Events</h6><p>Join us for a live event</p></a>
+                    <a className="dropdown-item" href="#"><h6>Blog</h6><p>Latest on web3 community</p></a>
                 
+                    </div>
+                </div>
                 </div>
             </li>
 
@@ -46,9 +52,9 @@ const Navbar = () => {
         </div>
         
         <div className="collapse navbar-collapse navbarNavDropdown">
-        <ul className="second-ul second-ul-lg-flex">
+        <ul className="second-ul">
                     <li className="nav-item active">
-                    <a className="dropdown-item" href="#">Create a community</a>
+                    <a  className="dropdown-item btn1" href="#">Create a community</a>
                     </li>
 
                     <li>

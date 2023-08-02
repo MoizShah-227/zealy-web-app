@@ -58,12 +58,27 @@ nav a{
   background-color: #1a1a1a;
   /* background-color: red; */
   border-radius: 15px;
+  padding-right: 120px;
   z-index: 1;
+
+}
+.dropdown{
+  z-index: 0;
 }
 .dropdown-menu a{
   color: white;
 }
 
+.dropdown-menu .res-img{
+  /* padding: 0; */
+  margin: 0;  
+  position: relative;
+  left: 18px;
+  border-radius: 12px;
+  background-color: #1b438d;
+  width: 120px;
+  height: 220px;
+}
 /* .dropdown-item{
   position: relative;
 } */
@@ -98,16 +113,17 @@ ul{
 .second-ul .btn{
   border-radius: 14px;
 }
-.second-ul .btn1{
-  background-color: #1a1a1a;
-  color: white;
-  border: 1px solid #2c2c2c;
-}
+
 .second-ul .btn1:hover{
   background-color: rgb(32,33,36,0.9);
+  color: white;
 }
 .second-ul .btn2:hover{
   background-color: rgb(236,236,236,0.9);
 }
 
+.nav-item:hover{
+  cursor: pointer;
+  background-color: rgb(32,33,36,0.9);
+}
 /* NAVBAR HOVER TOGGLER*/

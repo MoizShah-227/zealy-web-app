@@ -18,11 +18,13 @@ const Navbar = () => {
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Resources
                 </a>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a><img src={navimg}/></a>
+                <div className="  dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                {/* <a ><img src={navimg}/></a> */}
+                
                 <a className="dropdown-item" href="#"><h6>Help Center</h6><p>Answer to your Questions</p></a>
                 <a className="dropdown-item" href="#"><h6>Events</h6><p>Join us for a live event</p></a>
                 <a className="dropdown-item" href="#"><h6>Blog</h6><p>Latest on web3 community</p></a>
+                
                 </div>
             </li>
 
@@ -41,6 +43,11 @@ const Navbar = () => {
                 <a className="nav-link" href="#">ChangeLog <span className="sr-only">(current)</span></a>
             </li>
             
+            <div>
+                <li>
+                <a className="dropdown-item" href="#">Create a community</a>
+                </li>
+            </div>
             </ul>
         </div>
         </nav>

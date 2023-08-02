@@ -2,8 +2,13 @@
 /* font-family: 'Roboto', sans-serif;
 font-family: 'Syne', sans-serif; */
 
+.nav-components-wrapper{
+  width: 90%;
+  margin-left: 5%;
+
+}
 .components-wrapper{
-  border: 2px solid white;
+  border: 1px solid #2c2c2c;
   width: 90%;
   margin-left: 5%;
 }
@@ -11,20 +16,24 @@ font-family: 'Syne', sans-serif; */
 /* NAVIGATION BAR CSS */
 
 .nav{
-  background-color: #0d0d0d;
+  /* border: 1px solid #2c2c2c; */
+  position: fixed;
+  top: 0;
+  background-color: transparent;
   padding-top: 8px;
   border-color: none;
+  display: flex;
+  justify-content: space-between;
+
 }
 .navbar-Logo img{
   width:30%;
 }
-.collapse{
-  margin-left: -30%;
-}
+
 nav a{
   color: white;
 }
-nav a:hover{
+.first-nav a:hover{
   color: white;
   /* background-color: rgb(13,13,13,0.1); */
   background-color: rgb(32,33,36,0.9);
@@ -37,11 +46,19 @@ nav a:hover{
 .navbar-toggler-icon{
   color: black  ;
 }
-
+.nav-item a{
+  color: white;
+  align-items: center;
+}
+.first-nav{
+  margin-left: -19%;
+}
 /* Dropdown menu */
 .dropdown-menu{
   background-color: #1a1a1a;
+  /* background-color: red; */
   border-radius: 15px;
+  z-index: 1;
 }
 .dropdown-menu a{
   color: white;
@@ -65,4 +82,32 @@ nav a:hover{
   transform: rotate(90deg);
 } */
 
+ul{
+  list-style: none;
+}
+.second-ul{
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 25%;
+}
+.second-ul li{
+  margin: 5px;
+}
+.second-ul .btn{
+  border-radius: 14px;
+}
+.second-ul .btn1{
+  background-color: #1a1a1a;
+  color: white;
+  border: 1px solid #2c2c2c;
+}
+.second-ul .btn1:hover{
+  background-color: rgb(32,33,36,0.9);
+}
+.second-ul .btn2:hover{
+  background-color: rgb(236,236,236,0.9);
+}
 
+/* NAVBAR HOVER TOGGLER*/

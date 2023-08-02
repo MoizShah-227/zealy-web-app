@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Syne:wght@700;800&display=swap');
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Syne', sans-serif; */
+
+.contain-header{
+    margin-top: 15%;
+   
+}
+
+.sideimg img{
+    width: 115%;
+    margin-top: -30%;
+    margin-left: -6%;
+}
+.contain-header h1{
+    z-index: 0;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    font-family: 'Syne', sans-serif;
+}
+.contain-header .info{
+    padding-left: 6%;
+}
+.contain-header .info p{
+    color: #8d8d8d;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+}
+.form-control{
+    background-color: transparent;
+
+    width: 100px;
+    border: none;
+}
+.input-group-text{
+    border:none ;
+
+    background-color: transparent;
+}
+.input-group{
+    width: 75%;
+    height: 55px;
+    border: 1px solid #2c2c2c;
+    border-radius: 12px;
+}
+.input-group-prepend span i{
+    color: white;
+    font-size: 18px;
+}
+

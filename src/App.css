@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Syne:wght@700;800&display=swap');
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Syne', sans-serif; */
+
+.components-wrapper{
+  border: 2px solid white;
+  width: 90%;
+  margin-left: 5%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* NAVIGATION BAR CSS */
+
+.nav{
+  background-color: #0d0d0d;
+  padding-top: 8px;
+  border-color: none;
+}
+.navbar-Logo img{
+  width:30%;
+}
+.collapse{
+  margin-left: -30%;
+}
+nav a{
+  color: white;
+}
+nav a:hover{
+  color: white;
+  /* background-color: rgb(13,13,13,0.1); */
+  background-color: rgb(32,33,36,0.9);
+  /* background-color: red;  */
+  border-radius: 12px;
+}
+.navbar-nav  li{
+  padding: 8px;
+}
+.navbar-toggler-icon{
+  color: black  ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Dropdown menu */
+.dropdown-menu{
+  background-color: #1a1a1a;
+  border-radius: 15px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.dropdown-menu a{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* .dropdown-item{
+  position: relative;
+} */
+
+.dropdown-item p{
+  color: rgb(139, 137, 137);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dropdown-item:hover{
+  background-color: rgb(32,33,36,0.9);
+  color: white;
 }
+/* .dropdown-menu a img{
+  position: relative;
+  width: 50%;
+  transform: rotate(90deg);
+} */

@@ -1,10 +1,7 @@
-import React from 'react'
 import '../components_CSS/Header.css';
-import sideimg from '../Imges/portal-lg.9a17dc83.svg'
-import sideimg2 from '../Imges/Header.sidepic.jpg'
 const Header = () => {
   return (
-    <div className=" components-wrapper">
+    <div className="components-wrapper">
             <img className='header-img' src='https://zealy.io/_next/static/media/top.5b046145.webp'/>
       <div className="container contain-header">
            <div className="row">

@@ -7,9 +7,6 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg nav ">
         <a className="navbar-Logo"  href="#"><img src={Logo}/></a>
 
-        
-        
-
         <button className="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">       
             <span className="navbar-toggler-icon "></span>
         </button>

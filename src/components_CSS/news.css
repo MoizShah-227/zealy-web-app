@@ -4,6 +4,10 @@
     justify-content: center;
 }
 
+.components{
+    margin: auto;
+    width: 90%;
+}
 
 .img1 a img{
     width:95%;

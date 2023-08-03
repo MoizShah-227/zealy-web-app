@@ -1,3 +1,82 @@
-.filter{
-    border: 2px solid red;
+@media(max-width:989px){
+    .filter-left{
+        display: none;
+    }
+    
+    .mini-filte-left ul li a{
+     color: white;
+    border:1px solid #2c2c2c;
+    border-radius: 14px;
+    background-color: transparent;
+    padding: 18px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    }
+    .mini-filte-left ul li a:hover{
+        border: 1px solid #3c3c3c;
+        cursor: pointer;
+    }
+    .mini-filte-left ul {
+        display: flex;
+        align-items: center;
+        
+    }
+    .mini-filte-left ul li{
+        margin: 8px;
+    }
+    .mini-filte-left .dropdown button{
+        color: white;
+        border:1px solid #2c2c2c;
+        border-radius: 14px;
+        background-color: transparent;
+        padding: 18px;
+        height: 40px;
+        display: flex;
+        align-items: center;  
+    }
+  }
+
+  @media(min-width:989px){
+    .mini-filte-left{
+        display: none;
+    }
+    
+  }
+
+  .filter-left ul{
+    display: flex;
+  }
+  .filter-left ul li{
+    margin: 8px;
+  }
+  .filter-left ul li a{
+    color: white;
+    border:1px solid #2c2c2c;
+    border-radius: 14px;
+    background-color: transparent;
+    padding: 18px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.filter-left ul li a .icon{
+    align-items: center;
+    margin-top: 1px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+  .filter-left ul li a button i{
+    align-items: center;
+}
+.filter-left ul li a:hover{
+    border: 1px solid #3c3c3c;
+    cursor: pointer;
+}
+.filter-left ul li h3{
+    margin-top: -8px;
+    color: #3c3c3c;
+    font-size: 50px;
+    font-weight: 100;
+        
 }

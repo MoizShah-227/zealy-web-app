@@ -18,7 +18,7 @@ font-family: 'Syne', sans-serif; */
 /* NAVIGATION BAR CSS */
 
 .nav{
-  /* border: 1px solid #2c2c2c; */
+
   position: fixed;
   top: 0;
   background-color: transparent;
@@ -161,29 +161,5 @@ ul{
   .collapse li{
     display: flex;
     justify-content: center;
-  }
-}
-
-
-
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
   }
 }

@@ -4,9 +4,10 @@ import sideimg from '../Imges/portal-lg.9a17dc83.svg'
 import sideimg2 from '../Imges/Header.sidepic.jpg'
 const Header = () => {
   return (
-    <div className=" components-wrapper" >
+    <div className=" components-wrapper">
+            <img className='header-img' src='https://zealy.io/_next/static/media/top.5b046145.webp'/>
       <div className="container contain-header">
-           <div className="row ">
+           <div className="row">
             <div className=" info col-lg-6 col-md-12 z-index-0 mb-sm-5">
                 <h1>YOUR</h1>
                 <h1>ADVENTURE</h1>
@@ -24,7 +25,8 @@ const Header = () => {
         
 
             <div className=" sideimg col-lg-6 col-md-12">
-                <img src={sideimg}/>
+                {/* <img src={sideimg}/> */}
+                <img src='https://zealy.io/_next/static/media/portal-md.c9156ec2.webp'/>
             </div>
 
                 

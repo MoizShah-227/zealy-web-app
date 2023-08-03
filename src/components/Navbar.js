@@ -4,7 +4,7 @@ import navimg from '../Imges/blue.31ec5b2c.svg'
 const Navbar = () => {
   return (
     <div className='nav nav-components-wrapper'>
-        <nav className="navbar navbar-expand-lg nav">
+        <nav className="navbar navbar-expand-lg nav ">
         <a className="navbar-Logo"  href="#"><img src={Logo}/></a>
 
         <button className="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target=".navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,7 +54,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse navbarNavDropdown">
         <ul className="second-ul">
                     <li className="nav-item active">
-                    <a  className="dropdown-item btn1" href="#">Create a community</a>
+                    <a  className=" nav-item dropdown-item btn1" href="#">Create a community</a>
                     </li>
 
                     <li>

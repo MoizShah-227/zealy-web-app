@@ -4,24 +4,26 @@ font-family: 'Syne', sans-serif; */
 
 .contain-header{
     margin-top: 15%;
-    z-index: 1;
+    z-index: 0;    
 }
 
 .sideimg img{
     width: 115%;
     margin-top: -20%;
     margin-left: -6%;
+    z-index: 0;
 }
 .contain-header h1{
     font-style: normal;
     font-weight: 800;
     font-size: 40px;
     font-family: 'Syne', sans-serif;
+    overflow: hidden;    
     
 }
 .contain-header .info{
     padding-left: 6%;
-    
+    z-index: 0;
 }
 .contain-header .info p{
     color: #8d8d8d;

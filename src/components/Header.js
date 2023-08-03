@@ -6,8 +6,8 @@ const Header = () => {
   return (
     <div className=" components-wrapper" >
       <div className="container contain-header">
-           <div className="row">
-            <div className=" info col-lg-6 col-md-12">
+           <div className="row ">
+            <div className=" info col-lg-6 col-md-12 z-index-0">
                 <h1>YOUR</h1>
                 <h1>ADVENTURE</h1>
                 <h1>STARTS HERE</h1>

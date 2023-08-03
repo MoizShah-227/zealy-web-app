@@ -24,7 +24,7 @@ font-family: 'Syne', sans-serif; */
   border-color: none;
   display: flex;
   justify-content: space-between;
-
+  z-index: 1;
 }
 .navbar-Logo img{
   width:30%;
@@ -50,6 +50,7 @@ nav a{
   color: white;
   align-items: center;
 }
+
 .first-nav{
   margin-left: -19%;
 }
@@ -62,6 +63,7 @@ nav a{
   z-index: 1;
 
 }
+
 .dropdown{
   z-index: 0;
 }
@@ -90,6 +92,7 @@ nav a{
 .dropdown-item:hover{
   background-color: rgb(32,33,36,0.9);
   color: white;
+  border: 12px;
 }
 /* .dropdown-menu a img{
   position: relative;
@@ -125,5 +128,21 @@ ul{
 .nav-item:hover{
   cursor: pointer;
   background-color: rgb(32,33,36,0.9);
+  border-radius: 14px;
 }
-/* NAVBAR HOVER TOGGLER*/
+
+
+/* MEDIA QUERY FOR TOGGLER:start */
+
+@media(max-width:989px){
+  .collapse{
+      background-color: red;
+      color: white;
+  }
+  .collapse li{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+

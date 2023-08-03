@@ -7,7 +7,7 @@ const Header = () => {
     <div className=" components-wrapper" >
       <div className="container contain-header">
            <div className="row ">
-            <div className=" info col-lg-6 col-md-12 z-index-0">
+            <div className=" info col-lg-6 col-md-12 z-index-0 mb-sm-5">
                 <h1>YOUR</h1>
                 <h1>ADVENTURE</h1>
                 <h1>STARTS HERE</h1>

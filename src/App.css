@@ -80,10 +80,21 @@ nav a{
   background-color: #1b438d;
   width: 120px;
   height: 220px;
+  color: white;
 }
-/* .dropdown-item{
-  position: relative;
-} */
+.dropdown-menu .res-img h6{
+  color:white;
+  font-size: 18px;
+}
+.dropdown-menu .res-img p{
+  color: #878585;
+}
+.dropdown-menu .res-img:hover{
+  background-color: rgb(27,67,141,0.9);
+}
+.dropdown-menu a{
+  text-decoration: none;
+}
 
 .dropdown-item p{
   color: rgb(139, 137, 137);
@@ -115,6 +126,12 @@ ul{
 }
 .second-ul .btn{
   border-radius: 14px;
+}
+
+.second-ul .login{
+  background-color:  rgb(32,33,36);
+  color: white;
+  border: 1px solid #2c2c2c;
 }
 
 .second-ul .btn1:hover{

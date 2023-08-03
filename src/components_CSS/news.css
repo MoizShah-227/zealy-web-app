@@ -1,0 +1,78 @@
+.news-container{
+    /* width: 90%; */
+    display: flex;
+    justify-content: center;
+}
+
+
+.img1 a img{
+    width:95%;
+    height: 250px;
+    position: absolute;
+
+}
+.img2 a img{
+    width: 95%;
+    height: 250px;
+    position: absolute;
+}
+.contain-news{
+    margin: 0;
+    width: 90%;
+}
+.news-info{
+    position: relative;
+}
+.row a{
+    text-decoration: none;
+    color: white;
+}
+.news-info h3{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Syne', sans-serif;
+    font-style: normal;
+}
+.news-info p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+}
+.news-info button{
+    padding: 10px;
+    color: white;
+    background-color: rgb(36,60,205);
+    border: none;
+    border-radius: 14px;
+}
+.news-info .new-btn-2{
+    padding: 10px;
+    color: white;
+    background-color: rgb(164,48,91);
+    border: none;
+    border-radius: 14px;
+}
+.trans-1 .flower-img{
+    margin-left: 55%;
+    margin-right: auto;
+    width: 200px;
+    height: 94px;
+    
+    
+}
+.news-info .new-btn-2:hover{
+    cursor: pointer;
+    background-color: rgb(164,48,91,0.6);;
+}
+
+.news-info button:hover{
+    cursor: pointer;
+    background-color: rgb(36,60,205,0.6);    
+    border: none;
+}
+
+/* ADD TRANSFORM ON image */
+/* .trans-1{
+    transition:2s;
+}
+*/

@@ -16,7 +16,7 @@ const News = () => {
                 <h3>Zealy's community is</h3>
                 <h3>launching</h3>
                 <p className='mt-1'>join us to part of the movement</p>
-                <button>Learn more<></></button>
+                <button>Learn more<i class="bi bi-arrow-right mx-1"></i></button>
                 </div>
                 </a>
             </div>
@@ -30,7 +30,7 @@ const News = () => {
                 <h3>New name,</h3>
                 <h3>same awesome product</h3>
                 <p className='mt-1'>Crew3 is now Zealy. We're excited to share <br/>our new name and bradn with you</p>
-                <button className='btn new-btn-2' href="#">Learn more<></></button>
+                <button className='btn new-btn-2' href="#">Learn more<i class="bi bi-arrow-right mx-1"></i></button>
                 </div>
                 </a>
             </div>

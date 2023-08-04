@@ -1,22 +1,26 @@
 import React from 'react'
-import Slider from "eact-slick";
+import '../components_CSS/rightsilder.css';
 const RightSilder = () => {
-     
-        const settings = {
-          dots: true,
-          infinite: true,
-          speed: 500,
-          slidesToShow: 1,
-          slidesToScroll: 1
-        };
-    return (
-        <>
-        <h2>It's Working...</h2>
-        <Slider {...settings}>
-        {[1,2,3,4].map ((item, index) => {return <div key={index}>{}</div>})}
-        </Slider>
-        </>
+  return (
+    <div className='right-slider'>
+      <ul>
+        <li>
+                  <button className='btn'><a>All</a></button>
+                  <button className='btn'><a>Startup</a></button>
+                  <button className='btn'><a>Gaming</a></button>
+                  <button className='btn'><a>Infrastructure</a></button>
+                  <button className='btn'><a>DeFi</a></button>
+                  <button className='btn'><a>Music</a></button>
+                  <button className='btn'><a>Metaverse</a></button>
+                  <button className='btn'><a>Collectable</a></button>
+                  <button className='btn'><a>Education</a></button>
+                  <button className='btn'><a>Art</a></button>
+                  <button className='btn'><a>NFT</a></button>
+                  <button className='btn'><a>DAO</a></button>
+        </li>
+      </ul>
+    </div>
   )
 }
 
-export default RightSilder;
+export default RightSilder

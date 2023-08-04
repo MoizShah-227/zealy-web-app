@@ -1,0 +1,30 @@
+.right-filters-container {
+  position: relative;
+}
+.scroll-container {
+  display: flex; 
+  overflow-x: auto;
+  scrollbar-width: none;
+  /* For Firefox */
+  -ms-overflow-style: none;
+  /* For Internet Explorer and Edge */
+  /* Hide the scrollbar in WebKit-based browsers */
+  &::-webkit-scrollbar {
+      display: none;
+  }
+}
+.scroll-button {
+  position: absolute;
+  top: -5px;
+  background-color: #141414 !important;
+  font-size: 24px !important;
+  cursor: pointer;
+  border-radius: 20px;
+  z-index: 1;
+}
+.left-scroll-button {
+  left: 0;
+}
+.right-scroll-button {
+  right: 0;
+}

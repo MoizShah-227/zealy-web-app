@@ -1,0 +1,70 @@
+.community h2{  
+    font-family: 'Syne', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+}
+.community h1{
+    font-family: 'Syne', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+}
+.community .contain-data{
+    width: 450px;
+    height: 250px;
+    border: 1px solid #2c2c2c;
+    border-radius: 15px;
+    margin: 12px;
+}
+
+.community .contain-data span img{
+    width: 50px;
+    border-radius: 18px;
+}
+.community .contain-data span{
+    margin-top: 18px;
+    margin-left: 24px;
+    display: flex;
+}
+.community .contain-data span h1{
+    margin-top: 8px;
+    margin-left: 15px;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+}
+.community .contain-data p{
+    margin-top: 14px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+}
+.contain-data div ul {
+    display: flex;
+    margin-top: 15px;
+    margin-left: -12px;
+}
+.contain-data div ul li{
+    background-color: #262626;
+    margin: 8px;
+    padding: 8px;
+    height: 40px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 15px;
+    border:transparent;
+}
+.contain-data div ul li a i{
+    padding-top: -4px;
+    padding-right: 5px;
+    /* background-color: red; */
+}
+.short div{
+   margin-top: 65px;   
+}
+.community a{
+    color: white;
+    text-decoration: none;
+}

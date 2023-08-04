@@ -1,7 +1,8 @@
 import React from 'react'
 import '../components_CSS/filter.css';
-import { Carousel } from '@trendyol-js/react-carousel';
-
+import '../components_CSS/try.css';
+import Try from './Try';
+import RightSilder from '../components/RightSilder';
 const Filter = () => {
   const trend_icon =<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-fire" viewBox="0 0 16 16">
   <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16Zm0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15Z"/>
@@ -63,46 +64,8 @@ const hourglass =<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" 
 
           {/* RIGHT FILTER */}
         <div className='filter-right mx-5'>
-            <div class="container mt-4">
-              {/* <!-- Carousel --> */}
-              <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-                {/* <!-- Indicators --> */}
-                <ol class="carousel-indicators">
-                  <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
-                  <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
-                  <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
-                  {/* <!-- Add more li elements for additional slides --> */}
-                </ol>
-
-                {/* <!-- Slides --> */}
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                  <button className='btn'>All</button>
-                  <button className='btn'>Startup</button>
-                  <button className='btn'>Gaming</button>
-                  <button className='btn'>Infrastructure</button>
-                  <button className='btn'>DeFi</button>
-                  <button className='btn'>Music</button>
-                  <button className='btn'>Metaverse</button>
-                  </div>
-                
-                  <div class="carousel-item">
-                  <h1>habi</h1>
-                  </div>
-                  {/* <!-- Add more carousel-item divs for additional slides --> */}
-                </div>
-
-                {/* <!-- Previous and Next Buttons --> */}
-                <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </a>
-              </div>
-            </div>
+            <RightSilder/>
+            {/* <Try/> */}
         </div>  
       </div>
     </div>

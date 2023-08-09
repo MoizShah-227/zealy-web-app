@@ -8,7 +8,7 @@
     padding-top: 2px;
   }
 
-.community h2{  
+.contain-communities h2{  
     font-family: 'Syne', sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -20,7 +20,7 @@
     font-weight: 700;
     font-style: normal;
 }
-.community .contain-data{
+.contain-communities .contain-data{
     width: 450px;
     height: 250px;
     border: 1px solid #2c2c2c;
@@ -28,31 +28,32 @@
     margin: 12px;
 }
 
-.community .contain-data span img{
+.contain-communities .contain-data span img{
     width: 50px;
     border-radius: 18px;
 }
 
 
-.community .contain-data span{
+.contain-communities .contain-data span{
     margin-top: 18px;
     margin-left: 24px;
     display: flex;
 }
-.community .contain-data span h1{
+.contain-communities .contain-data span h1{
     margin-top: 8px;
     margin-left: 15px;
     font-size: 25px;
     font-weight: 400;
     font-style: normal;
 }
-.community .contain-data p{
+.contain-communities .contain-data p{
     margin-top: 14px;
     margin-left: 20px;
     font-size: 16px;
     font-weight: 400;
     color: #777777;
 }
+
 .contain-data div ul {
     display: flex;
     margin-top: 15px;
@@ -68,33 +69,33 @@
     border-radius: 15px;
     border:transparent;
 }
+.contain-data div ul li:hover{
+    background-color: #363636;
+    cursor: pointer;
+}
 .contain-data div ul li a i{
     padding-top: -4px;
     padding-right: 5px;
-    /* background-color: red; */
+      /* background-color: red; */
 }
 .short div{
    margin-top: 65px;   
 }
-.community a{
+.contain-communities a{
     color: white;
     text-decoration: none;
 }
+.contain-communities .contain-data:hover{
+    
+    cursor: pointer;
+}
 
-.horizontal-scroll-container {
-    display: inline-flex;
-    align-items: center;
-    overflow: hidden;
-    width: 50vw;
-    position: absolute;
-    right: 62px;
-    padding-top: 2px;
-  }
-  
+
+
   .scroll-content {
     width: 90%;
     overflow: hidden;
-  }
+}
   .scroll-content .buttons{
     display: flex;
     transition: transform 0.3s ease-in-out;

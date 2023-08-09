@@ -36,6 +36,19 @@ const HorizontalScrollBar = () => {
         {/* Your scrollable content goes here */}
           <div className='contain-communities' style={{ transform: `translateX(${scrollPosition}px)` }}>
 
+          <div className='contain-data'>
+            <span ><img src='https://crew3-production.s3.eu-west-3.amazonaws.com/public/k-tfyh19pj-tbcvbejogvvuoj5yzwbli-logo.png'/><h1>Haqq</h1></span>
+            <p>#HAQQnetwork is a scalable and interoperable Ethereum-compatible blockchain built on Proof-of-Stake with fast finality. ISLM is the native currency of HAQQ.</p>
+            <div>
+              <ul>
+                <li><a><i class="bi bi-link-45deg"></i></a></li>
+                <li><a><i class="bi bi-lightning-fill"></i></a>33</li>
+                <li><a><i class="bi bi-person-fill"></i>9.6k</a></li>
+                <li><a><i class="bi bi-twitter"></i></a>57k</li>
+              </ul>
+            </div>
+            </div>
+
           </div>
       </div>
       

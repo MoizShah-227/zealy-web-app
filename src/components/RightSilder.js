@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../components_CSS/try.css'; // Import your CSS file
+import '../components_CSS/rightsilder.css'; // Import your CSS file
 
 const HorizontalScrollBar = () => {
   const [scrollPosition, setScrollPosition] = useState(0);

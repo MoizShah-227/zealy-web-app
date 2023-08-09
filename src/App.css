@@ -13,6 +13,8 @@ font-family: 'Syne', sans-serif; */
   margin-left: 5%;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
+  position: relative;
+
 }
 
 /* NAVIGATION BAR CSS */
@@ -121,7 +123,7 @@ ul{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 25%;
+  padding-left: 18%;
 }
 .second-ul li{
   margin: 5px;
@@ -161,5 +163,28 @@ ul{
   .collapse li{
     display: flex;
     justify-content: center;
+  }
+}
+
+.contain-components {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  /* border: 1px solid red; */
+}
+@media (min-width: 768px) {
+  .contain-components {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .contain-components {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .contain-components {
+    width: 1340px;
   }
 }

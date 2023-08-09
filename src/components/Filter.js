@@ -63,9 +63,9 @@ const hourglass =<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" 
           </div>
 
           {/* RIGHT FILTER */}
-        <div className='filter-right mx-5'>
-            <RightSilder/>
-            {/* <Try/> */}
+        <div className='filter-right mx-5  mt-sm-3 mt-lg-0'>
+            {/* <RightSilder/> */}
+            <Try/>
         </div>  
       </div>
     </div>

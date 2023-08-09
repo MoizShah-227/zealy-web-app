@@ -8,12 +8,12 @@ import RightSilder from './components/RightSilder';
 import Newcommunities from './components/New_communities';
 function App() {
   return (
-    <div className=''>
+    <div className='contain-components'>
     <Navbar/>
     <Header/>
     <News/>
     <Filter/>
-    <Newcommunities/>
+    {/* <Newcommunities/> */}
     </div>
   );
 }

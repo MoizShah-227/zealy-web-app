@@ -8,11 +8,12 @@ font-family: 'Syne', sans-serif; */
 }
 
 .sideimg img{
-    width: 115%;
+    width: 106%;
     margin-top: -20%;
     margin-left: -6%;
     border-bottom-right-radius: 25px;
     z-index: 0;
+    mix-blend-mode: lighten;
 }
 .header-img{
     position: absolute;

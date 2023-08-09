@@ -1,4 +1,4 @@
-.horizontal-scroll-container {
+    .horizontal-scroll-container {
         display: inline-flex;
         align-items: center;
         overflow: hidden;

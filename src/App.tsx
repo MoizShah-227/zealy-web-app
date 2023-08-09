@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import News from './components/News'
 import Filter from './components/Filter';
 import RightSilder from './components/RightSilder';
+import Try from './components/Try'
 import Newcommunities from './components/New_communities';
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
     <Header/>
     <News/>
     <Filter/>
-    {/* <Newcommunities/> */}
+    <Newcommunities/>
     </div>
   );
 }

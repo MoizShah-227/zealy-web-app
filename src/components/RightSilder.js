@@ -1,26 +1,47 @@
-import React from 'react'
-import '../components_CSS/rightsilder.css';
-const RightSilder = () => {
-  return (
-    <div className='right-slider'>
-      <ul>
-        <li>
-                  <button className='btn'><a>All</a></button>
-                  <button className='btn'><a>Startup</a></button>
-                  <button className='btn'><a>Gaming</a></button>
-                  <button className='btn'><a>Infrastructure</a></button>
-                  <button className='btn'><a>DeFi</a></button>
-                  <button className='btn'><a>Music</a></button>
-                  <button className='btn'><a>Metaverse</a></button>
-                  <button className='btn'><a>Collectable</a></button>
-                  <button className='btn'><a>Education</a></button>
-                  <button className='btn'><a>Art</a></button>
-                  <button className='btn'><a>NFT</a></button>
-                  <button className='btn'><a>DAO</a></button>
-        </li>
-      </ul>
-    </div>
-  )
-}
+import React, { useState } from 'react';
+import '../components_CSS/try.css'; // Import your CSS file
 
-export default RightSilder
+const HorizontalScrollBar = () => {
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  const handleScroll = (direction) => {
+    const scrollAmount = 50; // Adjust the scroll amount as needed
+    if (direction === 'left') {
+      setScrollPosition(scrollPosition - scrollAmount);
+    } else if (direction === 'right') {
+      setScrollPosition(scrollPosition + scrollAmount);
+    }
+  };
+
+  return (
+    <div className="horizontal-scroll-container">
+       <button className="scroll-button" onClick={() => handleScroll('left')}>
+       <i class="bi bi-arrow-left"></i>
+      </button> 
+      <div className="scroll-content" >
+        {/* Your scrollable content goes here */}
+          <div className='buttons' style={{ transform: `translateX(${scrollPosition}px)` }}>
+                  <button className='btn'><a href='#'>All</a></button>
+                  <button className='btn'><a href='#'>Startup</a></button>
+                  <button className='btn'><a href='#'>Gaming</a></button>
+                  <button className='btn'><a href='#'>Infrastructure</a></button>
+                  <button className='btn'><a href='#'>DeFi</a></button>
+                  <button className='btn'><a href='#'>Music</a></button>
+                  <button className='btn'><a href='#'>Metaverse</a></button>
+                  <button className='btn'><a href='#'>Collectable</a></button>
+                  <button className='btn'><a href='#'>Education</a></button>
+                  <button className='btn'><a href='#'>Art</a></button>
+                  <button className='btn'><a href='#'>NFT</a></button>
+                  <button className='btn'><a href='#'>DAO</a></button>
+      
+          </div>
+      </div>
+      <button className="scroll-button" onClick={() => handleScroll('right')}>
+      <i class="bi bi-arrow-right"></i>
+      </button>
+     
+    </div>
+  );
+};
+
+export default HorizontalScrollBar;

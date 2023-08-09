@@ -22,7 +22,7 @@ const hourglass =<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" 
   return (
     <div className='filter-components mx-4'>
       <div className='row pt-4'>
-        <div className='filter-left'>
+        <div className='filter-left col-6 '>
           <ul>
             <li>
               <a><icon className ="icon">{start_icon} </icon>New</a>
@@ -64,8 +64,7 @@ const hourglass =<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" 
 
           {/* RIGHT FILTER */}
         <div className='filter-right mx-5  mt-sm-3 mt-lg-0'>
-            {/* <RightSilder/> */}
-            <Try/>
+            <RightSilder/>
         </div>  
       </div>
     </div>

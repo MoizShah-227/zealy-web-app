@@ -83,7 +83,7 @@ const HorizontalScrollBar = () => {
 
           <div className='contain-data'>
           <span ><img src='https://crew3-production.s3.eu-west-3.amazonaws.com/public/3b39d9a1-82b9-4401-ab82-f8e06598ce50-profile.png'/><h1>Venom Türkiye - Nft Müfettişi</h1></span>
-          <p>Bu bir Venom Türkiye & Nft müfettişi ortak etkinliğidir. 31.07.23 - 21.08.23 tarihlerini kapsar. 200XP üzerine sahip 10 kişi toplam 300$ USDT ödülü paylaşacaktır. Kazananlar kura ile belirlenecek, https://t.me/Venom_Turkiye adresinden duyurulacaktır.</p>
+          <p>Bu bir Venom zerine sahip 10 kişi toplam 300$ USDT ödülü paylaşacaktır. Kazananlar kura ile belirlenecek, https://t.me/Venom_Turkiye adresinden duyurulacaktır.</p>
           <div>
             <ul>
               <li><a><i class="bi bi-link-45deg"></i></a></li>

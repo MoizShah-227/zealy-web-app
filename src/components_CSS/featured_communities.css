@@ -1,0 +1,181 @@
+.horizontal-scroll-container {
+    display: inline-flex;
+    align-items: center;
+    overflow: hidden;
+    width: 50vw;
+    position: absolute;
+    right: 62px;
+    padding-top: 2px;
+  }
+
+  .community-container{
+    width: 90%;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+.contain-communities h2{  
+    font-family: 'Syne', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+}
+.contain-heading ul li h1{
+
+    font-family: 'Syne', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+}
+.contain-heading .show-more-btn{
+  text-decoration: underline;
+  line-height: 12px;
+}
+.contain-heading .show-more-btn:hover{
+  cursor: pointer;
+  text-decoration: none;
+}
+.contain-communities .contain-data{
+    
+    width: 450px;
+    height: 250px;
+    border: 1px solid #2c2c2c;
+    border-radius: 15px;
+    margin: 12px;
+    transition: 0.5s;
+}
+
+.contain-communities .contain-data span img{
+    width: 50px;
+    border-radius: 18px;
+}
+
+
+.contain-communities .contain-data span{
+    margin-top: 18px;
+    margin-left: 24px;
+    display: flex;
+}
+.contain-communities .contain-data span h1{
+    margin-top: 8px;
+    margin-left: 15px;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+}
+.contain-communities .contain-data p{
+    margin-top: 14px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+}
+
+.contain-data div ul {
+    display: flex;
+    margin-top: 15px;
+    margin-left: -12px;
+}
+.contain-data div ul li{
+    background-color: #262626;
+    margin: 8px;
+    padding: 8px;
+    height: 40px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 15px;
+    border:transparent;
+}
+.contain-data div ul li:hover{
+    background-color: #363636;
+    cursor: pointer;
+}
+.contain-data div ul li a i{
+    padding-top: -4px;
+    padding-right: 5px;
+      /* background-color: red; */
+}
+.short div{
+   margin-top: 65px;   
+}
+.contain-communities a{
+    color: white;
+    text-decoration: none;
+}
+
+.contain-communities .contain-data:hover{
+  background-color: #2b2b2b;
+  transform: translateY(-8px);
+    cursor: pointer;
+}
+
+
+
+  .scroll-content {
+    width: 90%;
+    overflow: hidden;
+}
+  .scroll-content .buttons{
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .scroll-button {
+    margin: 10px;
+  }
+  .scroll-content button{
+    margin: 8px;
+    color: white;
+    border:1px solid #2c2c2c;
+    border-radius: 14px;
+    background-color: transparent;
+    padding: 18px;
+    height: 20px;
+    display: flex;
+    align-items: center;    
+  }
+  
+  .scroll-button{
+    color: white;
+    border:1px solid #2c2c2c;
+    border-radius: 16px;
+    background-color: #1b1b1b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;    
+  }
+  
+  
+  .scroll-button:hover{
+    cursor: pointer;
+    border: 1px solid #3c3c3c;
+    background-color: #2b2b2b;  
+  }
+  .scroll-content button:hover{
+    border: 1px solid #3c3c3c;
+      cursor: pointer;
+  }
+
+  .contain-heading ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+  }
+
+  .contain-communities{
+    width: 95%;
+    overflow: hidden;
+  }
+  .community-scroll-content{
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+  }
+  .community-data{
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }

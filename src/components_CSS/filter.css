@@ -80,3 +80,6 @@
     font-weight: 100;
         
 }
+.filter-components .row{
+    display: inline-block;
+}

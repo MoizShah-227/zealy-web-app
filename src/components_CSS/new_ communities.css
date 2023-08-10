@@ -8,6 +8,12 @@
     padding-top: 2px;
   }
 
+  .community-container{
+    width: 90%;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 .contain-communities h2{  
     font-family: 'Syne', sans-serif;
     font-size: 16px;
@@ -15,12 +21,22 @@
     font-style: normal;
 }
 .contain-heading ul li h1{
+
     font-family: 'Syne', sans-serif;
     font-size: 16px;
     font-weight: 700;
     font-style: normal;
 }
+.contain-heading .show-more-btn{
+  text-decoration: underline;
+  line-height: 12px;
+}
+.contain-heading .show-more-btn:hover{
+  cursor: pointer;
+  text-decoration: none;
+}
 .contain-communities .contain-data{
+    
     width: 450px;
     height: 250px;
     border: 1px solid #2c2c2c;
@@ -145,4 +161,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between  ;
+  }
+
+  .contain-communities{
+    width: 95%;
+    overflow: hidden;
+  }
+  .community-scroll-content{
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+  }
+  .community-data{
+    display: flex;
+    transition: transform 0.3s ease-in-out;
   }

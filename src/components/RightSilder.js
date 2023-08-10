@@ -5,16 +5,16 @@ const HorizontalScrollBar = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
 
   const handleScroll = (direction) => {
-    const scrollAmount = 50; // Adjust the scroll amount as needed
-    if (direction === 'left') {
+    const scrollAmount = 300; // Adjust the scroll amount as needed
+    if (direction === 'right') {
       setScrollPosition(scrollPosition - scrollAmount);
-    } else if (direction === 'right') {
+    } else if (direction === 'left') {
       setScrollPosition(scrollPosition + scrollAmount);
     }
   };
 
   return (
-    <div className="horizontal-scroll-container">
+    <div className="horizontal-scroll-container px-5">
        <button className="scroll-button" onClick={() => handleScroll('left')}>
        <i class="bi bi-arrow-left"></i>
       </button> 

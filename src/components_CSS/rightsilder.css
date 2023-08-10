@@ -1,11 +1,11 @@
     .horizontal-scroll-container {
-        display: inline-flex;
+        display: flex;
         align-items: center;
         overflow: hidden;
-        width: 50%;
-        position: absolute;
-        right: 62px;
-        padding-top: 2px;
+        width: 680px;
+        margin-top: -31%;
+        margin-right: -920px;
+        
       }
       
       .scroll-content {

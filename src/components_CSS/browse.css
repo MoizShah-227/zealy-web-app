@@ -1,0 +1,123 @@
+
+  .browse-container{
+    width: 90%;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+
+  }
+  .scroll-content {
+    width: 90%;
+    overflow: hidden;
+}
+  .scroll-content .buttons{
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .scroll-button {
+    margin: 10px;
+  }
+  .scroll-content button{
+    margin: 8px;
+    color: white;
+    border:1px solid #2c2c2c;
+    border-radius: 14px;
+    background-color: transparent;
+    padding: 18px;
+    height: 20px;
+    display: flex;
+    align-items: center;    
+  }
+  
+  .scroll-button{
+    color: white;
+    border:1px solid #2c2c2c;
+    border-radius: 16px;
+    background-color: #1b1b1b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;    
+  }
+  
+  
+  .scroll-button:hover{
+    cursor: pointer;
+    border: 1px solid #3c3c3c;
+    background-color: #2b2b2b;  
+  }
+  
+  .scroll-content button:hover{
+    border: 1px solid #3c3c3c;
+      cursor: pointer;
+  }
+
+  .contain-heading ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+  }
+
+  .contain-browse{
+    width: 95%;
+    overflow: hidden;
+  }
+  .browse-scroll-content{
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+  }
+  .browse-data{
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .browse-data button a{
+   color: white;
+  }
+
+  .browse-data button {
+    width: 204px;
+    height: 100px;
+    margin: 12px;
+    border-radius: 18px;
+}
+.browse-btn{
+    position: relative;
+}
+.browse-btn img{
+   width: 204px;
+   height: 100px;
+   border: 18px;
+}
+.browse-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    transition: 0.5s;
+}
+.browse-btn:hover{
+    cursor: pointer;
+
+}
+.browse-btn a{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.browse-data a{
+    text-decoration: none;
+    color: white;
+}
+.browse-btn:hover{
+    transform: translateY(-8px);
+    cursor: pointer;
+}

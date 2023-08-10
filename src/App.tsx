@@ -7,6 +7,7 @@ import Filter from './components/Filter';
 import Try from './components/Try'
 import Newcommunities from './components/New_communities';
 import Featuredcommunities from './components/Featured_communities';
+import Browse from "./components/Browse";
 function App() {
   return (
     <div className='contain-components'>
@@ -16,6 +17,7 @@ function App() {
     <Filter/>
     <Newcommunities/>
     <Featuredcommunities/>
+    <Browse/>
     </div>
   );
 }

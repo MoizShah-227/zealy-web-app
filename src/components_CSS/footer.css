@@ -30,13 +30,27 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color:  rgba(255, 255, 255, 0.447);
 }
 .last-data .left{
     display: flex;
 }
 .last-data .left a,p{
-margin: 12px;
+    margin: 12px;
+    color:  rgba(255, 255, 255, 0.447);
 }
 .last-data .right a{
-    ma
+    margin: 8px;
+    color:  rgba(255, 255, 255, 0.447);
+}
+.last-data .right {
+    padding-right: 70px;
+}
+.last-data a:hover{
+    text-decoration: none;
+    color: white;
+}
+.last-data .right a i:hover{
+    cursor: pointer;
+    color: white;
 }

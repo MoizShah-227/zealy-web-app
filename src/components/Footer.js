@@ -49,10 +49,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-              </section>
-        
-        <div className='last-data'>
+                    <div className='last-data'>
             
             <div className='left'>
                     <p>2023 Feryja Labs</p>
@@ -62,10 +59,15 @@ const Footer = () => {
             </div>
             
             <div className='right'>
-                <a>logo1</a>
-                <a>logo2</a>
+                <a href='#'><i class="bi bi-twitter"></i></a>
+                <a href='#'><i class="bi bi-discord"></i></a>
             </div>
         </div>
+                </div>
+                
+              </section>
+        
+
     </div>
   )
 }

@@ -53,19 +53,17 @@ const Footer = () => {
               </section>
         
         <div className='last-data'>
-            <div className='row'>
-                <ul>
-                    <li>
-                        <p></p>
-                    <a href=''></a>
-                    <a href=''></a>
-                    <a href=''></a>
-                    </li>
-                    <li>
-                        <a>logo</a>
-                        <a>logo</a>
-                    </li>
-                </ul>
+            
+            <div className='left'>
+                    <p>2023 Feryja Labs</p>
+                    <a href=''>Privacy</a>
+                    <a href=''>Cookie Privacy</a>
+                    <a href=''>Term of use</a>
+            </div>
+            
+            <div className='right'>
+                <a>logo1</a>
+                <a>logo2</a>
             </div>
         </div>
     </div>

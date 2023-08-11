@@ -25,3 +25,18 @@
 .footer-container .btn:hover{
     color: white;
 }
+
+.last-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.last-data .left{
+    display: flex;
+}
+.last-data .left a,p{
+margin: 12px;
+}
+.last-data .right a{
+    ma
+}

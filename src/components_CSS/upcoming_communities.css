@@ -205,3 +205,14 @@
   .contain-heading .show-more-btn a{
     color: white;
   }
+  .contain-data .time{
+    
+    background-color: #262626;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    /* padding-bottom: 4px; */
+    height: 28px;
+    border-radius: 18px;
+    font-size: 13px;
+}

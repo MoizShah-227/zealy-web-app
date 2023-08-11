@@ -12,21 +12,26 @@ import TrendyCommunities from "./components/Trendy_communities";
 import UpcomingCommunities from "./components/Upcoming_communities";
 import Future from "./components/Future";
 import Footer from "./components/Footer";
+import Login from './components/Login';
 function App() {
   return (
-    <div className='contain-components'>
-    <Navbar/>
-    <Header/>
-    <News/>
-    <Filter/>
-    <Newcommunities/>
-    <Featuredcommunities/>
-    <Browse/>
-    <TrendyCommunities/>
-    <UpcomingCommunities/>
-    <Future/>
-    <Footer/>
-    </div>
+    // <div className='contain-components'>
+    // <Login/>
+    // <Navbar/>
+    // <Header/>
+    // <News/>
+    // <Filter/>
+    // <Newcommunities/>
+    // <Featuredcommunities/>
+    // <Browse/>
+    // <TrendyCommunities/>
+    // <UpcomingCommunities/>
+    // <Future/>
+    // <Footer/>
+    // </div>
+    <>
+    <Login/>
+    </>
   );
 }
 

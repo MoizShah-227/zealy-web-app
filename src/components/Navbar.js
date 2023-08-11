@@ -1,6 +1,7 @@
-import React from 'react'
-import Logo from '../Imges/Logo2.svg'
-import navimg from '../Imges/blue.31ec5b2c.svg'
+import React from 'react';
+import Logo from '../Imges/Logo2.svg';
+import navimg from '../Imges/blue.31ec5b2c.svg';
+
 const Navbar = () => {
   return (
     <div className='nav nav-components-wrapper'>

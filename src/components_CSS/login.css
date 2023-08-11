@@ -1,0 +1,16 @@
+.login-container .login-right img{
+    width: 100%;
+    mix-blend-mode: lighten;
+}
+.login-container .login-left{
+    background-color: #161616;
+}
+.login-container .login-left ul li img{
+    width: 30px;
+    height: 30px;
+}
+.login-container .login-left ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -83,3 +83,6 @@
 .filter-components .row{
     display: inline-block;
 }
+.filter-right{
+    position: relative;
+}

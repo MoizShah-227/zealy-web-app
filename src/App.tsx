@@ -11,6 +11,7 @@ import Browse from "./components/Browse";
 import TrendyCommunities from "./components/Trendy_communities";
 import UpcomingCommunities from "./components/Upcoming_communities";
 import Future from "./components/Future";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className='contain-components'>
@@ -24,6 +25,7 @@ function App() {
     <TrendyCommunities/>
     <UpcomingCommunities/>
     <Future/>
+    <Footer/>
     </div>
   );
 }

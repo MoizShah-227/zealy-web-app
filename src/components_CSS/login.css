@@ -14,3 +14,59 @@
     justify-content: space-between;
     align-items: center;
 }
+.login-container .login-left ul button{
+    padding: 8px;
+    border-radius: 14px;
+    font-size: 14px;
+    color: white;
+    background-color: #232323;
+    border: 1px solid #3c3c3c;
+    cursor: pointer;
+}
+.login-container .login-left ul p{
+    color: #ffffff97;
+    font-size: 14px;
+}
+
+/* Login-Body */
+.login-container .login-body{
+    margin: auto;
+    width: 80%;
+}
+.login-container .login-body .contain-login-data h3{
+    font-family: 'Syne', sans-serif; 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.92);
+}
+
+.login-container .login-body .contain-login-data p{
+    color: #ffffff97;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.login-container .login-body .contain-login-data .buttons .btn{
+    font-family: 'Roboto', sans-serif;
+    margin: 8px;
+    width: 100%;
+    height: 45px;
+    border-radius: 16px;
+    font-size: 18px;
+    color: white;
+    background-color: #232323;
+    border: 1px solid #3c3c3c;
+    cursor: pointer;
+}
+
+
+/* hover-Sections */
+.login-container .login-body .contain-login-data .buttons .btn:hover{
+    border: 1px solid #1c1c1c;    
+}
+.login-container .login-left ul button:hover{
+    border: 1px solid #1c1c1c;
+}

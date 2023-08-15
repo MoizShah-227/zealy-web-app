@@ -4,7 +4,7 @@ const Login = () => {
   return (
     <div className='login-container'>
       <div className='row'>
-        <div className=' login-left col-5'>
+        <div className='login-left col col-lg-5'>
         <ul className='mt-1'>
           <li><img src='https://ugc.production.linktr.ee/70MKy00yQESJzYTeawbx_zealy%20Logo_Mark_White.png' /></li>
           <li className='d-flex'>
@@ -28,19 +28,19 @@ const Login = () => {
               <div style={{flex: 1, height: '1px', backgroundColor: '#ffffff97'}} />
 
               <div>
-                <p style={{width: '70px', textAlign: 'center'}}>or</p>
+                <p  style={{width: '50px', textAlign: 'center'}}>or</p>
               </div>
 
               <div style={{flex: 1, height: '1px', backgroundColor: '#ffffff97'}} />
             </div>
             
-            <form>
+            <form className='login-form mt-4'>
               <p>Email address</p>
               <input type='text' placeholder='Kanny@zealy.io'/>
             </form>
-            <div className='email-btn'>
-            <a><button>Log in with Email</button></a>
-            </div>
+            
+            <a><button className='login-btn mx-1' >Log in with Email</button></a>
+            
 
           </div>
         </div>

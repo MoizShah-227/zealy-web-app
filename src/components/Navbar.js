@@ -1,8 +1,10 @@
 import React from 'react';
 import Logo from '../Imges/Logo2.svg';
-import navimg from '../Imges/blue.31ec5b2c.svg';
+
 
 const Navbar = () => {
+    // ONCLICK FUNCTIONS
+
   return (
     <div className='nav nav-components-wrapper'>
         <nav className="navbar navbar-expand-lg nav ">
@@ -58,10 +60,10 @@ const Navbar = () => {
         <div className="collapse navbar-collapse navbarNavDropdown">
         <ul className="second-ul">
                     <li className="nav-item active">
-                    <a  className=" nav-item dropdown-item btn1" href="#">Create a community</a>
+                    <a  className=" nav-item dropdown-item btn1" href="#" >Create a community</a>
                     </li>
                     <li>
-                        <button className="btn btn1 login" href="#"><a>Login</a></button>
+                        <button className="btn btn1 login" href="#" ><a>Login</a></button>
                     </li>
                     <li>
                         <button className="btn btn2" href="#">Create a Account</button>

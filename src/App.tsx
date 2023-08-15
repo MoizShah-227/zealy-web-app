@@ -15,23 +15,21 @@ import Footer from "./components/Footer";
 import Login from './components/Login';
 function App() {
   return (
-    // <div className='contain-components'>
-    // <Login/>
-    // <Navbar/>
-    // <Header/>
-    // <News/>
-    // <Filter/>
-    // <Newcommunities/>
-    // <Featuredcommunities/>
-    // <Browse/>
-    // <TrendyCommunities/>
-    // <UpcomingCommunities/>
-    // <Future/>
-    // <Footer/>
-    // </div>
-    <>
-    <Login/>
-    </>
+    <div className='contain-components'>
+    {/* <Login/> */}
+    <Navbar/>
+    <Header/>
+    <News/>
+    <Filter/>
+    <Newcommunities/>
+    <Featuredcommunities/>
+    <Browse/>
+    <TrendyCommunities/>
+    <UpcomingCommunities/>
+    <Future/>
+    <Footer/>
+    </div>
+    
   );
 }
 

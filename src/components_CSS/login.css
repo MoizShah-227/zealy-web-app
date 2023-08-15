@@ -56,11 +56,45 @@
     height: 45px;
     border-radius: 16px;
     font-size: 18px;
-    color: white;
+    color: rgba(255, 255, 255, 0.92);
     background-color: #232323;
     border: 1px solid #3c3c3c;
     cursor: pointer;
 }
+
+.login-container .login-body .contain-login-data .login-form{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.92);
+    font-weight: 500;
+}
+.login-container .login-body .contain-login-data .login-form input{
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+    border-radius: 16px;
+    padding-left: 8px;
+    background-color: transparent;
+    border: 1px solid #3c3c3c;
+}
+.login-container .login-body .contain-login-data .login-btn{
+    font-family: 'Roboto', sans-serif;
+    margin: 8px;
+    width: 100%;
+    height: 45px;
+    border-radius: 16px;
+    font-size: 18px;
+    color: #ffffff97;
+    background-color: #232323;
+    border: 1px solid #3c3c3c;
+    cursor: pointer;
+}
+
+
+  
+
+
+
+
 
 
 /* hover-Sections */
@@ -68,5 +102,18 @@
     border: 1px solid #1c1c1c;    
 }
 .login-container .login-left ul button:hover{
+    border: 1px solid #1c1c1c;    
+}
+.login-container .login-body .contain-login-data .login-btn:hover{
     border: 1px solid #1c1c1c;
+}
+
+
+@media(max-width:989px){
+    .login-right{
+        display: none;
+    }
+    .login-left{
+        width: 100%;
+    }
 }

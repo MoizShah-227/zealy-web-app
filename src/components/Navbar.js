@@ -31,9 +31,9 @@ const Navbar = () => {
                 <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 
                 <div className="row">
-                    <a className="col-6 res-img" href="#"><h6 className='mt-3'>Community</h6>
+                    <Link className="col-6 res-img" to="/welcome"><h6 className='mt-3'>Community</h6>
                     <p>Join the fun</p>
-                    </a>                   
+                    </Link>                   
                     <div className="col-6 p-0 m-0">
                     <a className="dropdown-item" href="#"><h6>Help Center</h6><p>Answer to your Questions</p></a>
                     <a className="dropdown-item" href="#"><h6>Events</h6><p>Join us for a live event</p></a>
@@ -50,7 +50,7 @@ const Navbar = () => {
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <Link className="dropdown-item" to="/about" ><h6>About</h6><p>Learn more about Zealy</p></Link>
-                <a className="dropdown-item" href="#"><h6>Careers</h6><p>Join our Team</p></a>
+                <a className="dropdown-item" href='#' ><h6>Careers</h6><p>Join our Team</p></a>
                 <a className="dropdown-item" href="#"><h6>Media Kit</h6><p>Logos and assets</p></a>
                 </div>
             </li>

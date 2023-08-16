@@ -12,6 +12,7 @@ import Login from './components/Login'
 import ChangeLog from './components/Pages/ChangeLog';
 import Navbar  from './components/Navbar';
 import About from './components/Pages/About';
+import Welcome from './components/Pages/Welcome';
 const Home = () => {
   return (
     <div>
@@ -20,8 +21,8 @@ const Home = () => {
           <Route path="/" element={<App/>} />
           <Route path="/Login" element={<Login/>} />
           <Route path="/About" element={<About/>} />
-          
           <Route path="/ChangeLog" element={<ChangeLog/>}/>
+          <Route path="/welcome" element={<Welcome/>}/>
         </Routes>
       </Router>
     </div>

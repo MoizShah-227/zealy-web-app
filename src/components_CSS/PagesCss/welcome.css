@@ -10,6 +10,7 @@
 }
 .welcome-container .side-nav{
     position: fixed;
+    margin-top: 12px;
     margin-left: 1%;
     width: 60px;
     height: 100vh;
@@ -39,4 +40,69 @@
 .welcome-container .side-nav .contain-ul ul li a:hover{
     background-color: #434343;
     border: 1px solid #232323;
+}
+
+.side-nav-2{
+    background-color: #161616;
+    position: fixed;
+    border-radius: 18px;
+    margin-top: 12px;
+    margin-left: 7%;
+    width: 200px;
+    height: 100vh;
+}
+.side-nav-2 img{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    border-radius: 28px;
+    opacity: 0.5;
+}
+.nav-dropdown button{
+    background-color: transparent;
+    border: none;
+}
+.side-nav-2 p{
+    color: white;
+    margin-top: 70px;
+    /* position: absolute; */
+}
+.side-nav-2 .dropdown{
+    position: absolute;
+    margin-bottom: 12px;
+    right: 10px;
+    margin-top: -35px;
+    margin-right: 0;
+}
+.side-nav-2 .dropdown i{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: transparent;
+}
+.side-nav-2 .dropdown i:hover{
+    cursor: pointer;
+    background-color: #232323;
+    opacity: 0.7;
+}
+
+.nav-menu a button{
+    background-color: #232323;
+    color: rgba(255, 255, 255, 0.92);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 100%;
+    border-radius: 15px;
+}
+.nav-menu a button:hover{
+    background-color: #434343;
+}
+.colored a{
+    color: #e15b60;
+}
+.colored a:hover{
+    background-color: #e15b60;
+    opacity: 0.6;
 }

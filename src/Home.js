@@ -10,6 +10,7 @@ import {
 import App from './App'
 import Login from './components/Login'
 import ChangeLog from './components/Pages/ChangeLog';
+import Navbar  from './components/Navbar';
 const Home = () => {
   return (
     <div>
@@ -17,7 +18,8 @@ const Home = () => {
         <Routes>
           <Route path="/" element={<App/>} />
           <Route path="/Login" element={<Login/>} />
-          <Route path="/ChangeLog" element={<ChangeLog/>} />
+          
+          <Route path="/ChangeLog" element={<ChangeLog/>}/>
         </Routes>
       </Router>
     </div>

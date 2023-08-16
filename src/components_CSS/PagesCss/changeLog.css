@@ -1,0 +1,98 @@
+.center-item{
+    display: flex;   
+    justify-content: center;
+    margin-top: 15%;
+}
+.changelog-header{
+    text-align: center;
+    width: 50%;
+}
+.changelog-header h5{
+    font-family: 'Syne', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #f65cb6;
+}
+.changelog-header h1{
+    font-family: 'Syne', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color:  rgba(255, 255, 255, 0.92);
+}
+.changelog-header p{
+    font-size: 18px;
+    font-weight: 300;
+    color:  rgba(255, 255, 255, 0.592);
+}
+.changelog-header ul{
+    display: flex;
+}
+.changelog-header ul li{
+    margin: 15px;
+    margin-right: 18px;
+    align-items: center;
+    
+}
+.changelog-header ul li .link{
+    color: #f65cb6;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.changeLog-section-2{
+    margin-top: 0;
+    mix-blend-mode: lighten;
+}
+.changeLog-section-2 img{
+    width: 650px;
+    height: 360px;
+}
+.texts h1{
+    font-family: 'Syne', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;        
+}
+.texts p{
+    font-size: 16px;
+    }
+.changelog-header .video{
+    background-color: red;
+    /* width: 650px; */
+    width: 100%;
+    /* height: 240px; */
+    border-radius: 20px;
+}
+.contain-list p a{
+    color: red;
+}
+
+
+
+/* HOVERS */
+.changelog-header ul li .link:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: #ee4fac;
+}
+
+
+
+/* MEDIA QUERYS */
+
+@media (max-width: 768px) {
+  .changelog-header h1{
+        font-size: 25px;
+     color: red;
+  }  
+  .changelog-header p{
+    font-size: 12px;
+ 
+}  
+.changelog-header ul li .link{
+    font-size: 14px;
+ 
+}  
+  }
+ 
+  

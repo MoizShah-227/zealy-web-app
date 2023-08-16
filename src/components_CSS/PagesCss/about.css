@@ -1,0 +1,50 @@
+.aboutlog-header{
+    text-align: center;
+    width: 70%;
+}
+.aboutlog-header h5{
+    font-family: 'Syne', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #f65cb6;
+}
+
+.aboutlog-header h1{
+    font-family: 'Syne', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color:  rgba(255, 255, 255, 0.92);
+}
+.aboutlog-header p{
+    font-size: 18px;
+    font-weight: 300;
+    color:  rgba(255, 255, 255, 0.592);
+}
+.aboutlog-header .btn{
+    color: white;
+    background-color: #a71873;
+    border-radius: 14px;
+    font-size: 14px;
+}
+.aboutlog-header .btn2{
+    background: transparent;
+    border: transparent;
+    color: white;
+    cursor: pointer;
+    color:  rgba(255, 255, 255, 0.592);
+
+}
+
+.img-1{
+    width: 100%;
+}
+
+
+
+
+.aboutlog-header .btn:hover{
+    background-color: #a71873a1;
+}
+.aboutlog-header .btn2:hover{
+    color:  rgba(255, 255, 255, 0.92);
+}

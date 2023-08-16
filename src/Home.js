@@ -11,6 +11,7 @@ import App from './App'
 import Login from './components/Login'
 import ChangeLog from './components/Pages/ChangeLog';
 import Navbar  from './components/Navbar';
+import About from './components/Pages/About';
 const Home = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const Home = () => {
         <Routes>
           <Route path="/" element={<App/>} />
           <Route path="/Login" element={<Login/>} />
+          <Route path="/About" element={<About/>} />
           
           <Route path="/ChangeLog" element={<ChangeLog/>}/>
         </Routes>

@@ -12,11 +12,19 @@
 .aboutlog-header h1{
     font-family: 'Syne', sans-serif;
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 700;
+    color:  rgba(255, 255, 255, 0.92);
+}
+.aboutlog-header h2{
+    font-family: 'Syne', sans-serif;
+    font-size: 30px;
+    width: 130%;
+    font-weight: 700;
     color:  rgba(255, 255, 255, 0.92);
 }
 .aboutlog-header p{
-    font-size: 18px;
+    
+    font-size: 16px;
     font-weight: 300;
     color:  rgba(255, 255, 255, 0.592);
 }
@@ -34,7 +42,9 @@
     color:  rgba(255, 255, 255, 0.592);
 
 }
-
+.row .right img{
+    width: 100%;
+}
 .img-1{
     width: 100%;
 }

@@ -15,7 +15,7 @@ import Footer from '../Footer';
 const About = () => {
   return (
     <div className='contain-components'>
-    <Navbar/> 
+     <Navbar/> 
     <div className='about center-item'>
         <div className='aboutlog-header pb-5'>
             <h5>WHAT WE DO</h5>
@@ -37,19 +37,44 @@ const About = () => {
         </div>  
     </div>
 
-    <div className='changeLog-section-2 center-item'>
-        <div className='changelog-header'>
-        
+    <div className='row mt-5 pb-5'>
+        <div className='col-lg-6 col-md-12'>
+        <div className='aboutlog-header pb-5 mx-5'>
+            <h5 className='text-left mt-3 mx-3'>QUESTS</h5>
+            <h2 className='mt-3 text-left mx-3'>The ultimate community experience</h2>
+            <p className='mt-4 text-left'>We got you covered. With bite-sized tasks it’s easy to get started, and for anyone to provide value. To create them is easy too - select from a variation of battle-tested templates!</p>
         </div>
+        </div>
+        <div className='col-lg-6 col-md-12  right'><img src='https://zealy.io/nstatic/about/quests.webp'/></div>
+    </div>
+
+    <div className='row mt-5 pb-5'>
+        <div className='col-lg-6 col-md-12 '>
+        <div className='aboutlog-header pb-5 mx-5'>
+            <h5 className='text-left mt-3 mx-3'>SPRINT</h5>
+            <h2 className='mt-3 text-left mx-3'>Autopilot on</h2>
+            <p className='mt-4 text-left'>Bring back momentum and keep the contribution fun with community sprints. Whether you launch a new feature, organize an event, or sell digital assets, getting community engagement is a snap with periodic leaderboard rewards.</p>
+        </div>
+        </div>
+        <div className='col-lg-6 col-md-12  right'><img src='https://zealy.io/nstatic/about/sprint.webp'/></div>
+    </div>
+
+    <div className='row mt-5 pb-5'>
+        <div className='col-lg-6 col-md-12 '>
+        <div className='aboutlog-header pb-5 mx-5'>
+            <h5 className='text-left mt-3 mx-3'>ANALYTICS & CRM</h5>
+            <h2 className='mt-3 text-left mx-3'>Get a 360° view of your<br/>community</h2>
+            <p className='mt-4 text-left'>Great communities are built by teams who know their members. Make data-driven decisions to improve your community and grow your business. Detect superstars. Segment your users based on on-chain and off-chain data. Enable personalized, consistent, and real-time community members' experiences.</p>
+        </div>
+        </div>
+        <div className='col-lg-6 col-md-12  right'><img src='https://zealy.io/nstatic/about/analytics.webp  '/></div>
     </div>
 
 
-
-      
-    {/* <Future/> */}
-    {/* <Footer/> */}
+    <Footer/>
+    {/* THESE IS END */}
     </div>
-  )
+    )
 }
 
-export default About
+export default About;

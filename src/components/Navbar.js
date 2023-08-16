@@ -49,7 +49,7 @@ const Navbar = () => {
                 Company
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a className="dropdown-item" href="#"><h6>About</h6><p>Learn more about Zealy</p></a>
+                <Link className="dropdown-item" to="/about" ><h6>About</h6><p>Learn more about Zealy</p></Link>
                 <a className="dropdown-item" href="#"><h6>Careers</h6><p>Join our Team</p></a>
                 <a className="dropdown-item" href="#"><h6>Media Kit</h6><p>Logos and assets</p></a>
                 </div>

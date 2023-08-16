@@ -1,5 +1,14 @@
-// import React from 'react';
+import React from 'react';
 import './App.css';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Routes,
+  Link
+} from "react-router-dom";
+
 import Header from './components/Header';
 import Navbar from './components/Navbar';
 import News from './components/News'
@@ -13,10 +22,12 @@ import UpcomingCommunities from "./components/Upcoming_communities";
 import Future from "./components/Future";
 import Footer from "./components/Footer";
 import Login from './components/Login';
+
+
 function App() {
   return (
+    <>
     <div className='contain-components'>
-    {/* <Login/> */}
     <Navbar/>
     <Header/>
     <News/>
@@ -29,7 +40,7 @@ function App() {
     <Future/>
     <Footer/>
     </div>
-    
+    </>
   );
 }
 

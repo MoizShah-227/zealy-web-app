@@ -1,10 +1,16 @@
 import React from 'react';
 import Logo from '../Imges/Logo2.svg';
-
-
+import Login from './Login';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Routes,
+    Link
+  } from "react-router-dom";
+  
 const Navbar = () => {
     // ONCLICK FUNCTIONS
-
   return (
     <div className='nav nav-components-wrapper'>
         <nav className="navbar navbar-expand-lg nav ">
@@ -60,13 +66,13 @@ const Navbar = () => {
         <div className="collapse navbar-collapse navbarNavDropdown">
         <ul className="second-ul">
                     <li className="nav-item active">
-                    <a  className=" nav-item dropdown-item btn1" href="#" >Create a community</a>
+                    <Link className=" nav-item dropdown-item btn1" to="/Login">Create a community</Link>
                     </li>
                     <li>
-                        <button className="btn btn1 login" href="#" ><a>Login</a></button>
+                        <button className="btn btn1 login" ><Link to="/Login" style={{color:"white"}}>Login</Link></button>
                     </li>
                     <li>
-                        <button className="btn btn2" href="#">Create a Account</button>
+                        <button className="btn btn2" ><Link to='/Login' style={{color:"Black",textdecoration:"None"}}>Create a Account</Link></button>
                     </li>
                 </ul>
         </div>

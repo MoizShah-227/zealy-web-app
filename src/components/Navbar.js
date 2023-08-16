@@ -56,7 +56,7 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item active">
-                <a className="nav-link" href="#">ChangeLog <span className="sr-only">(current)</span></a>
+                <Link className="nav-link link" to="/ChangeLog">ChangeLog <span className="sr-only">(current)</span></Link>
             </li>
             </ul>
         </div>

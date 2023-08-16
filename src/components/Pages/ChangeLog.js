@@ -8,6 +8,8 @@ import {
     Routes,
     Link
   } from "react-router-dom";
+import Footer from '../Footer';
+import Future from '../Future';
   
 const ChangeLog = () => {
   return (
@@ -78,6 +80,69 @@ const ChangeLog = () => {
 
         </div>
     </div>
+
+    <div>
+    <hr className=' mt-5' style={{background:'#464646'}}/>
+    <p className='mt-5'>Jul 21,2023</p>
+    </div>    
+    
+
+    <div className='changeLog-section-2 center-item'>
+        <div className='changelog-header'>
+        <img src='https://crew3-production.s3.eu-west-3.amazonaws.com/public/changelog/settings.jpg' alt='#'/>
+        <div className='texts'>
+        <h1 className='text-left mt-4 mx-2'>Fake account takedown</h1>
+        <p className='text-left'>We're taking customization and security to a whole new level. Introducing Zealy's upgraded settings page, all settings in one place.</p>
+        <br/>
+        <p className='text-left'>With this we’re also stepping up our game in safeguarding your community with an improved bot protection system. With every account securely stored and monitored, we ensure no duplicate usage. And to keep you informed, we're rolling out more advanced and clear error messages that makes it possible to debug on your own.</p>
+        <h1 className='text-left mt-4 mx-2'>Referral links for communities</h1>  
+        <p className='text-left'>Your community is the heartbeat of our success. And to honor your contribution, we're thrilled to launch a brand-new referral system exclusively for communities. From now on, every community you bring onboard will be credited to your community, etching your mark on Zealy's expanding universe.</p>
+        <br/>
+        <p className='text-left'>And it gets better - this new feature is linked to a dynamic reward system! Every referral not only adds to your community's influence but also brings exciting rewards. It's our way of saying thank you for helping us grow.</p>
+        </div>
+        <img src='https://crew3-production.s3.eu-west-3.amazonaws.com/public/changelog/referral-link.webp' alt='#'/>
+    
+        <div className='texts  contain-list'>
+        <h1 className='text-left mt-4 mx-2'>Other fixes & improvements</h1>
+        <p className='text-left'><a className='px-2 mt-1' style={{color:"#f65cb6"}}>*</a>Fix error on emails with subdomains</p>
+        <p className='text-left'><a className='px-2 mt-1' style={{color:"#f65cb6"}}>*</a>Fix error message when using the wrong fileformat on create community</p>
+        </div>
+
+        </div>
+    </div>
+
+    <div>
+    <hr className=' mt-5' style={{background:'#464646'}}/>
+    <p className='mt-5'>Jul 21,2023</p>
+    </div>    
+    
+
+    <div className='changeLog-section-2 center-item'>
+        <div className='changelog-header'>
+        <img src='https://crew3-production.s3.eu-west-3.amazonaws.com/public/changelog/nft-reward.jpg' alt='#'/>
+        <div className='texts'>
+        <h1 className='text-left mt-4 mx-2'>NFT Rewards</h1>
+        <p className='text-left'>Imagine rewarding your contributors with unique tokens they can proudly display. Zealy Quests allows you to say thanks in a one-of-a-kind way - by granting them NFT rewards for completing challenges. These aren't just fun tokens; they're a powerful way to build reputation and unlock benefits both within and beyond Zealy. And the best part? These badges are free for your contributors to claim and affordable for your community since they are on Polygon.</p>
+        <br/>
+        <p className='text-left'>Step up your game and start rewarding your loyal contributors today. In just a few clicks you can set up the NFT rewards on your quests. Exclusively available for our premium communities.</p>
+        <h1 className='text-left mt-4 mx-2'>NFT Rewards</h1>
+        <h1 className='text-left mt-4 mx-2'>Referral links for communities</h1>  
+        <p className='text-left'>Your community is the heartbeat of our success. And to honor your contribution, we're thrilled to launch a brand-new referral system exclusively for communities. From now on, every community you bring onboard will be credited to your community, etching your mark on Zealy's expanding universe.</p>
+        <br/>
+        <p className='text-left'>And it gets better - this new feature is linked to a dynamic reward system! Every referral not only adds to your community's influence but also brings exciting rewards. It's our way of saying thank you for helping us grow.</p>
+        </div>
+        <img src='https://crew3-production.s3.eu-west-3.amazonaws.com/public/changelog/referral-link.webp' alt='#'/>
+    
+        <div className='texts  contain-list'>
+        <h1 className='text-left mt-4 mx-2'>Other fixes & improvements</h1>
+        <p className='text-left'><a className='px-2 mt-1' style={{color:"#f65cb6"}}>*</a>Fix error on emails with subdomains</p>
+        <p className='text-left'><a className='px-2 mt-1' style={{color:"#f65cb6"}}>*</a>Fix error message when using the wrong fileformat on create community</p>
+        </div>
+
+        </div>
+    </div>
+    <Future/>
+    <Footer/>
     </div>
   )
 }

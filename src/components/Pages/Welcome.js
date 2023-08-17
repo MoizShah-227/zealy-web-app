@@ -7,10 +7,10 @@ const Welcome = () => {
       <div className='side-nav '>
         <div className='contain-ul'>
         <ul>
-          <li><img  className='contain-side-img' width={30} src='https://ugc.production.linktr.ee/70MKy00yQESJzYTeawbx_zealy%20Logo_Mark_White.png'href ="/" /></li>
-          <li><a><i class="bi bi-search"></i></a></li>
-          <li><a><i class="bi bi-plus-circle"></i></a></li>
-          <li><a><i class="bi bi-globe"></i></a></li>
+          <li><Link to="/"><img  className='contain-side-img' width={30} src='https://ugc.production.linktr.ee/70MKy00yQESJzYTeawbx_zealy%20Logo_Mark_White.png'/></Link></li>
+          <li><a className='side-icons'><i class="bi bi-search"></i></a></li>
+          <li><a  className='side-icons'><i class="bi bi-plus-circle"></i></a></li>
+          <li><a  className='side-icons'><i class="bi bi-globe"></i></a></li>
         </ul>
         </div>
       </div>
@@ -60,7 +60,7 @@ const Welcome = () => {
           </div>
 
           <div className='welcome-section-1'>
-            <h4 className='mt-1 mx-3'>#👋 Find your Zeal</h4>
+            <h4 className='mt-3 mx-3'>#👋 Find your Zeal</h4>
             <div className='row'>
               <div className='col-lg-4 col-md-12'>
                
@@ -77,7 +77,7 @@ const Welcome = () => {
               </div>
               <div className='col-lg-4 col-md-12'>
               <a><div className='welcome-box'>
-                <h5 className='pt-3 px-2'>Community Manager? Check out Zealy Academy 🧑🏼‍💻</h5>
+                <h5 className='pt-3 px-2'> Check Zealy Academy 🧑🏼‍💻</h5>
                
                 <p>Join our free CM360 Program to meet other  </p>
                <div className='welcome-box-btn mt-5'>
@@ -102,6 +102,89 @@ const Welcome = () => {
 
               </div>
             </div>
+
+            <h4 className='mt-3 mx-4' style={{color:"#fac400"}}>#🔥 Prepare for Lift-off</h4>
+            <div className='row section-2'>
+              <div className='col-lg-4 col-md-12'>
+               
+                <a><div className='welcome-box'>
+                <h5 className='pt-3 px-2'>Lift-off Checklist ✅</h5>
+               
+                <p>You meticulously prepare your spacecraft, to ensure all systems</p>
+               <div className='welcome-box-btn mt-5'>
+                
+                <a><button className='btn2 mt-5'>ONCE</button></a>
+               </div>
+               </div></a>
+
+              </div>
+              <div className='col-lg-4 col-md-12'>
+              <a><div className='welcome-box'>
+                <h5 className='pt-3 px-2'>What is Zealy?</h5>
+               
+                <p>You delve into the history of Planet Zealy, unearthing fascinating tales </p>
+               <div className='welcome-box-btn mt-5'>
+                <a><button className='btn2 mt-5 text-right'>DAILY</button></a>
+               </div>
+               </div></a>
+
+              </  div>              
+            </div>
+
+            <div className='row section-2'>
+              <div className='col-lg-4 col-md-12'>
+               
+                <a><div className='welcome-box'>
+                <h5 className='pt-3 px-2'>The Leaderboard</h5>
+               
+                <p>As your journey progresses, you encounter other explorers seeking the</p>
+               <div className='welcome-box-btn mt-5'>
+                
+                <a><button className='btn2 mt-5'>DAILY</button></a>
+               </div>
+               </div></a>
+
+              </div>
+              <div className='col-lg-4 col-md-12'>
+              <a><div className='welcome-box'>
+                <h5 className='pt-3 px-2'>Don't just be a member</h5>
+               
+                <p>You seize the opportunity to enhance your abilities, gaining access</p>
+               <div className='welcome-box-btn mt-5'>
+                <a><button className='btn2 mt-5 text-right'>DAILY</button></a>
+               </div>
+               </div></a>
+
+              </  div>              
+            </div>
+
+            <div className='row section-2'>
+              <div className='col-lg-4 col-md-12'>
+               
+                <a><div className='welcome-box'>
+                <h5 className='pt-3 px-2'>Our Latest Update</h5>
+               
+                <p>You eagerly await new information about the ancient civilization and its</p>
+               <div className='welcome-box-btn mt-5'>
+                
+                <a><button className='btn2 mt-5'>DAILY</button></a>
+               </div>
+               </div></a>
+
+              </div>
+              <div className='col-lg-4 col-md-12'>
+              <a><div className='welcome-box'>
+                <h5 className='pt-3 px-2'>Upgraded systems ⚡️</h5>
+               
+                <p>You find an option to upgrade your systems onboard. Find the latest updates</p>
+               <div className='welcome-box-btn mt-5'>
+                <a><button className='btn2 mt-5 text-right'>DAILY</button></a>
+               </div>
+               </div></a>
+
+              </  div>              
+            </div>
+
           </div>
           {/* END */}
       </div>      

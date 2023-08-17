@@ -8,6 +8,7 @@ import {
   } from "react-router-dom";
   
 import '../../components_CSS/PagesCss/zealy_Doc.css'
+import What_is_Zealy from './What_is_Zealy';
 const Zealy_Doc = () => {
   return (
 <div className='doc-container bg-light'>
@@ -44,7 +45,7 @@ const Zealy_Doc = () => {
 
 <div className='doc-side-bar' >
     <div className='doc-side-bar-data m-3 '>
-        <a><h5>😄&nbsp;What is Zealy?</h5></a>
+        <Link to="/Zealy_Doc/what_is_zealy"><h5>😄&nbsp;What is Zealy?</h5></Link>
 
       <h4 className='mt-4'>GETTING STARTED</h4>
        <div className='contain'>
@@ -125,6 +126,7 @@ const Zealy_Doc = () => {
        </div>
     </div>
 </div>
+
 
 {/* END */}
     </div>

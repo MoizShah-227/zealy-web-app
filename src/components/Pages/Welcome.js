@@ -58,6 +58,38 @@ const Welcome = () => {
           <a><button className='btn2 m-2'>👋 Find your Zeal</button></a>
           <a><button className='btn2 m-2'>🔥 Prepare for Lift-off </button></a>
           </div>
+
+          <div className='welcome-section-1'>
+            <h4 className='mt-1 mx-3'>#👋 Find your Zeal</h4>
+            <div className='row'>
+              <div className='col-lg-4 col-md-12'>
+               
+                <a><div className='welcome-box'>
+                <h5 className='pt-3 px-2'>Contributor? Visit Planet Zealy 🪐</h5>
+               
+                <p>The Planet Zealy Questboard Adventure begins when players receive a mysterious </p>
+               <div className='welcome-box-btn mt-5'>
+                <a><button className='btn1 mt-5'>10 XP</button></a>
+                <a><button className='btn2 mt-5'>DAILY</button></a>
+               </div>
+               </div></a>
+
+              </div>
+              <div className='col-lg-4 col-md-12'>
+              <div className='welcome-box'>
+ 2                 
+                  </div>
+              </div>              
+            </div>
+            <div className='row'>
+            <div className='col-lg-4 col-md-12'>
+              <div className='welcome-box'>
+  3                
+                  </div>
+              </div>
+            </div>
+          </div>
+          {/* END */}
       </div>      
     </div>
   )

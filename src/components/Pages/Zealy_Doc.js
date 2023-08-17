@@ -40,9 +40,89 @@ const Zealy_Doc = () => {
   </div>
 </nav>
 
-<div className='doc-side-bar'>
-    <div className='doc-side-bar-data'>
-        <h5></h5>
+
+
+<div className='doc-side-bar' >
+    <div className='doc-side-bar-data m-3 '>
+        <a><h5>😄&nbsp;What is Zealy?</h5></a>
+
+      <h4 className='mt-4'>GETTING STARTED</h4>
+       <div className='contain'>
+       <a >👏 Create your community</a>
+        <a>🛬Create your first quest</a>
+       </div>
+
+       <h4 className='mt-4'>GUIDES</h4>
+       <div className='contain'>
+        <a className='mx-1'>🏠 Home</a>
+        
+        <div class="btn-group dropdown">
+          <a>🤑Quest</a>
+          <button type="button" class="dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropright</span>
+          </button>
+          <div class="dropdown-menu">
+            <a className='extend-bar'>Unlockable quest</a>
+          </div>
+        </div>
+
+        <div class="btn-group dropdown">
+          <a>🏆 Leaderboard</a>
+          <button type="button" class="dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropright</span>
+          </button>
+          <div class="dropdown-menu">
+            <a className='extend-bar'>XP table</a>
+            <a className='extend-bar'>Organize a sprint</a>
+          </div>
+        </div>
+
+        <div class="btn-group dropdown">
+          <a>👀 Reviews</a>
+          <button type="button" class="dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropright</span>
+          </button>
+          <div class="dropdown-menu">
+            <a className='extend-bar'>Exporting the history</a>
+          </div>
+        </div>
+
+        <div class="btn-group dropdown">
+          <a>🔌 Integrations</a>
+          <button type="button" class="dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropright</span>
+          </button>
+          <div class="dropdown-menu">
+            <a className='extend-bar'>Disord bot activation</a>
+            <a className='extend-bar'>Disord bots commands</a>
+          </div>
+        </div>
+
+        <a className='mx-1'>✨ Roles</a>
+        <a className='mx-1'>📊 Analytics</a>
+        <a className='mx-1'>🦸‍♂️ Members</a>
+
+        <div class="btn-group dropdown">
+          <a>💻 API</a>
+          <button type="button" class="dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropright</span>
+          </button>
+          <div class="dropdown-menu">
+            <a className='extend-bar'>Give XP</a>
+          </div>
+        </div>
+
+        <a className='mx-1'>👍 Best practices</a>
+
+          <h4 className='mt-4'>USE CASES</h4>
+          <a className='mx-1'>⛵ Onboarding</a>
+          <a className='mx-1'>🦜 Boost your Twitter</a>
+          <a className='mx-1'>🍏 Zealy Branding</a>
+       
+          <h4 className='mt-4'>FAQ</h4>
+          <a>❔FAQ</a>
+
+       </div>
     </div>
 </div>
 

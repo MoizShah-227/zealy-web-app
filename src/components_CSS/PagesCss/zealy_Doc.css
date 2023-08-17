@@ -55,8 +55,64 @@
 
   /* NAV-SIDE-BAR START HERE */
   .doc-side-bar{
+    position: fixed;
     overflow: scroll;
-    background-color: red;
+    /* background-color: lightgrey; */
     height:88%;
     width: 300px;
+}
+.doc-side-bar-data a h5{
+  font-size: 16px;
+  font-weight: 700;
+  color: #d6409f;
+  cursor: pointer;
+}
+.doc-side-bar-data h4{
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  color: #8899a8;
+}
+.doc-side-bar-data .ul{
+  background-color: red;
+  margin-right: 22px;
+}
+.doc-side-bar-data .contain a{
+  position: relative;
+  font-size: 14px;
+  color: #5c6975;
+  display: flex;
+  padding: 5px;
+  cursor: pointer;
+  font-weight:400 ;
+}
+.btn-group{
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+  width: 100%;
+
+}
+.btn-group .dropdown-toggle{
+  background-color: transparent;
+  border: none;
+}
+.contain .btn-group .dropdown-menu{
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  border-radius: none;
+}
+
+/* HOVER IS HERE */
+.btn-group:hover{
+  background-color: #ebeced;
+  border-radius: 12px;
+  color: #5c6975;
+}
+
+.doc-side-bar-data .contain a:hover{
+  background-color: #ebeced;
+  border-radius: 12px;
+  color: #5c6975;
 }

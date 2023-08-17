@@ -10,8 +10,8 @@ import {
 import '../../components_CSS/PagesCss/zealy_Doc.css'
 const Zealy_Doc = () => {
   return (
-<>
-<div className='zealy_doc_Body bg-light'>   
+<div className='doc-container bg-light'>
+<div className='zealy_doc_Body '>   
         {/* NAVGATION-BAR */}
         <nav className="navbar navbar-expand-lg navbar-light ">
       <div className="container-fluid">
@@ -39,10 +39,16 @@ const Zealy_Doc = () => {
     </div>
   </div>
 </nav>
+
+<div className='doc-side-bar'>
+    <div className='doc-side-bar-data'>
+        <h5></h5>
     </div>
+</div>
 
-
-</>
+{/* END */}
+    </div>
+</div>
     )
 }
 

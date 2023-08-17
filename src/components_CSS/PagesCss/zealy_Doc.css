@@ -29,3 +29,34 @@
         display: none;
     }
 }
+
+.doc-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    /* border: 1px solid red; */
+  }
+  @media (min-width: 768px) {
+    .doc-container{
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .doc-container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .doc-container {
+      width: 1360px;
+    }
+  }
+
+  /* NAV-SIDE-BAR START HERE */
+  .doc-side-bar{
+    overflow: scroll;
+    background-color: red;
+    height:88%;
+    width: 300px;
+}

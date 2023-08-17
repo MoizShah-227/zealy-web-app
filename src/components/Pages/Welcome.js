@@ -76,16 +76,30 @@ const Welcome = () => {
 
               </div>
               <div className='col-lg-4 col-md-12'>
-              <div className='welcome-box'>
- 2                 
-                  </div>
-              </div>              
+              <a><div className='welcome-box'>
+                <h5 className='pt-3 px-2'>Community Manager? Check out Zealy Academy 🧑🏼‍💻</h5>
+               
+                <p>Join our free CM360 Program to meet other  </p>
+               <div className='welcome-box-btn mt-5'>
+                <a><button className='btn1 mt-5'>10 XP</button></a>
+                <a><button className='btn2 mt-5'>DAILY</button></a>
+               </div>
+               </div></a>
+
+              </  div>              
             </div>
             <div className='row'>
             <div className='col-lg-4 col-md-12'>
-              <div className='welcome-box'>
-  3                
-                  </div>
+            <a><div className='welcome-box'>
+                <h5 className='pt-3 px-2'>🤝 Want to Collaborate on Zealy?</h5>
+               
+                <p>If you’re looking to collaborate with other projects on Zealy, this is your place to go!</p>
+               <div className='welcome-box-btn mt-5'>
+                <a><button className='btn1 mt-5'>10 XP</button></a>
+                <a><button className='btn2 mt-5'>DAILY</button></a>
+               </div>
+               </div></a>
+
               </div>
             </div>
           </div>

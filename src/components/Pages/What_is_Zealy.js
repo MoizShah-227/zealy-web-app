@@ -1,9 +1,14 @@
 import React from 'react'
 import '../../components_CSS/PagesCss/what_is_zealy.css'
+import Zealy_Doc from './Zealy_Doc'
 const What_is_Zealy = () => {
   return (
-    <div>
-    <h1>color</h1>
+    <div className='doc-container'>        
+        <Zealy_Doc/>
+  
+    
+      
+
     </div>
   )
 }

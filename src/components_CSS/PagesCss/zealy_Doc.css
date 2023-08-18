@@ -56,10 +56,10 @@
   /* NAV-SIDE-BAR START HERE */
   .doc-side-bar{
     position: fixed;
-    overflow: scroll;
+    overflow-y: scroll;
     /* background-color: lightgrey; */
     height:88%;
-    width: 270px;
+    width: 250px;
 }
 .doc-side-bar-data a h5{
   font-size: 16px;

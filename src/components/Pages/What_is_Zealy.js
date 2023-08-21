@@ -6,7 +6,7 @@ const What_is_Zealy = () => {
     <div className='doc-container what-is-zealy'>        
         <div className='row'>
         <div className='col-3'>
-        <Zealy_Doc/>
+        < Zealy_Doc/>
         </div>
         <div className='col-9'>
         <div className='contain-zealy-data container'>
@@ -21,7 +21,7 @@ const What_is_Zealy = () => {
           <p>ON THIS PAGE</p>
           <a style={{color:"#d6409f"}} href="#list-item-1">Getting Started</a>
           <a href="#list-item-2">Guides: Jump right in</a>
-          <a href="#list-item-3">DO you have questions?</a>
+          <a href="#FAQ">DO you have questions?</a>
           </div>
 
           <div className='content container'>
@@ -55,9 +55,25 @@ const What_is_Zealy = () => {
             <h3 id='list-item-2'>Guides: Jump right in</h3>
             <p>Follow our handy guides to get started on the basics as quickly as possible:</p>
             <div className='guides'>
-              <a>👏 Create your community</a><br/>
-              <a>🤠 Creating your first quest</a><br/>
-              <a>🔌 Integrations</a><br/>
+              <ul>
+                <li> <a>👏 Create your community</a></li>
+              
+                <li><a>🤠 Creating your first quest</a></li>
+              
+                <li><a>🔌 Integrations</a></li>
+              </ul>
+             
+            </div>
+
+            <h3 id='FAQ'>Do you have questions?</h3>
+            <p>Check our FAQ or contact us at hello@crew3.xyz</p>
+            <div className='guides'>
+              <ul>
+                <li> <a>❔FAQ - Genera</a></li>
+              
+                <li><a>Create your community</a></li>
+            </ul>
+             
             </div>
             </div>
           </div>

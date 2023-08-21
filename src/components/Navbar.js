@@ -35,7 +35,7 @@ const Navbar = () => {
                     <p>Join the fun</p>
                     </Link>                   
                     <div className="col-6 p-0 m-0">
-                    <Link className="dropdown-item" to="/Zealy_Doc"><h6>Help Center</h6><p>Answer to your Questions</p></Link>
+                    <Link className="dropdown-item" to="/Zealy_Doc/what_is_zealy"><h6>Help Center</h6><p>Answer to your Questions</p></Link>
                     <a className="dropdown-item" href="#"><h6>Events</h6><p>Join us for a live event</p></a>
                     <a className="dropdown-item" href="#"><h6>Blog</h6><p>Latest on web3 community</p></a>
                 

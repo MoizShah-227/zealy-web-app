@@ -21,7 +21,7 @@ const Zealy_Doc = () => {
   
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
-    </button>
+    </button> 
   
     <div className="collapse navbar-collapse mx-5 px-5" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -49,7 +49,7 @@ const Zealy_Doc = () => {
 
       <h4 className='mt-4'>GETTING STARTED</h4>
        <div className='contain'>
-       <a >👏 Create your community</a>
+       <Link to="/Zealy_Doc/what_is_zealy/Create_your_community" >👏 Create your community</Link>
         <a>🛬Create your first quest</a>
        </div>
 

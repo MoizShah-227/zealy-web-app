@@ -15,6 +15,7 @@ import About from './components/Pages/About';
 import Welcome from './components/Pages/Welcome';
 import Zealy_Doc from './components/Pages/Zealy_Doc';
 import What_is_Zealy from './components/Pages/What_is_Zealy';
+import CreateYourCommunity from './components/Pages/CreateYourCommunity';
 const Home = () => {
   return (
     <div>
@@ -28,6 +29,8 @@ const Home = () => {
           <Route path="/Zealy_Doc" element={<Zealy_Doc/>}/>
          
           <Route path="/Zealy_Doc/what_is_zealy" element={<What_is_Zealy/>}/>
+          <Route path="/Zealy_Doc/what_is_zealy/Create_your_community" element={<CreateYourCommunity/>}/>
+
         </Routes>
       </Router>
     </div>

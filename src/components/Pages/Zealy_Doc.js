@@ -73,29 +73,29 @@ const Zealy_Doc = () => {
             <span class="sr-only">Toggle Dropright</span>
           </button>
           <div class="dropdown-menu">
-            <a className='extend-bar'>XP table</a>
-            <a className='extend-bar'>Organize a sprint</a>
+            <Link to="/Zealy_Doc/what_is_zealy/LeaderBoard/XPTable" className='extend-bar'>XP table</Link>
+            <Link to="/Zealy_Doc/what_is_zealy/LeaderBoard/OrganizeSprint" className='extend-bar'>Organize a sprint</Link>
           </div>
         </div>
 
         <div class="btn-group dropdown">
-          <a>👀 Reviews</a>
+          <Link to="/Zealy_Doc/what_is_zealy/Reviews">👀 Reviews</Link>
           <button type="button" class="dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span class="sr-only">Toggle Dropright</span>
           </button>
           <div class="dropdown-menu">
-            <a className='extend-bar'>Exporting the history</a>
+            <Link to="/Zealy_Doc/what_is_zealy/Reviews/ExportingHistory" className='extend-bar'>Exporting the history</Link>
           </div>
         </div>
 
         <div class="btn-group dropdown">
-          <a>🔌 Integrations</a>
+          <Link to="/Zealy_Doc/what_is_zealy/Integrations">🔌 Integrations</Link>
           <button type="button" class="dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span class="sr-only">Toggle Dropright</span>
           </button>
           <div class="dropdown-menu">
-            <a className='extend-bar'>Disord bot activation</a>
-            <a className='extend-bar'>Disord bots commands</a>
+            <Link to="/Zealy_Doc/what_is_zealy/Integrations/DiscordActivation" className='extend-bar'>Disord bot activation</Link>
+            <Link to="" className='extend-bar'>Disord bots commands</Link>
           </div>
         </div>
 

@@ -22,6 +22,12 @@ import Quests from './components/Pages/Quests';
 import UnlockableQuests from './components/Pages/UnlockableQuests';
 import LeaderBoard from './components/Pages/LeaderBoard';
 import XPTable from './components/Pages/XPTable';
+import OrganizeSprint from './components/Pages/OrganizeSprint';
+import Reviews from './components/Pages/Reviews';
+import ExportingHistory from './components/Pages/ExportingHistory';
+import Integrations from './components/Pages/Integrations';
+import DiscordActivation from './components/Pages/DiscordActivation';
+
 
 const Home = () => {
   return (
@@ -43,6 +49,13 @@ const Home = () => {
           <Route path="/Zealy_Doc/what_is_zealy/Quests/UnlockableQuests" element={<UnlockableQuests/>}/>
           <Route path="/Zealy_Doc/what_is_zealy/LeaderBoard" element={<LeaderBoard/>}/>
           <Route path="/Zealy_Doc/what_is_zealy/LeaderBoard/XPTable" element={<XPTable/>}/>
+          <Route path="/Zealy_Doc/what_is_zealy/LeaderBoard/OrganizeSprint" element={<OrganizeSprint/>}/>
+          <Route path="/Zealy_Doc/what_is_zealy/Reviews" element={<Reviews/>}/>
+          <Route path="/Zealy_Doc/what_is_zealy/Reviews/ExportingHistory" element={<ExportingHistory/>}/>
+          <Route path="/Zealy_Doc/what_is_zealy/Integrations" element={<Integrations/>}/>
+          <Route path="/Zealy_Doc/what_is_zealy/Integrations/DiscordActivation" element={<DiscordActivation/>}/>
+
+
 
 
 

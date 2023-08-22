@@ -119,6 +119,7 @@
     font-weight: 500;
     color: #000000;
     border: 1px solid #a8b4bf;
+    border-radius: 3px;
     padding: 15px 42px 15px 42px;
     margin: 12px;
     transition: 0.4s;
@@ -131,4 +132,47 @@
     cursor: pointer;
     border: 1px solid #3b454e;    
     transform: translateY(-3px);
+}
+.content h5,h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #3b454e;
+    font-style: normal;
+} 
+.content .blue-text{
+    color: #635cff;
+    font-size: 16px;
+    font-weight: 700;
+}
+.content .video{
+    border-radius: 8px;
+}
+.bottom-btn .item{
+    width: 50%;
+}
+.bottom-btn .item a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #3b454e;
+}
+.content .upper-text{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color: #8899a8;
+}
+.content .main-li-text li{
+    margin-top: 17px;
+}
+.content .main-li-text .bold-text{
+    color: #3b454e;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+
+}
+.content h6{
+    font-size: 16px;
+    font-weight: 600;
+    color: #3b454e;
 }

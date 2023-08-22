@@ -30,15 +30,18 @@ const CreateYourCommunity = () => {
             <Link className='item-1 item d-flex' to="/Zealy_Doc/what_is_zealy">
             <li><i class="bi bi-arrow-left"></i></li>
             <li>
-            <Link  >What is zealy?</Link>
+            <Link to="/Zealy_Doc/what_is_zealy">What is zealy?</Link>
             </li>
             </Link>
             
             <div className='item-2 item d-flex'>
-            <li><Link>Creating your first quest</Link></li>
+            <li><Link to="/Zealy_Doc/what_is_zealy/CreateYourFirstQuest">Creating your first quest</Link></li>
             <li><i class="bi bi-arrow-right"></i></li>
             </div>
-                   
+
+              <div className='page-footer'>
+                
+              </div>     
             </div>          
           </div>
           </div>

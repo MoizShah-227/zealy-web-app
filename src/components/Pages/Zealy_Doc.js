@@ -50,25 +50,25 @@ const Zealy_Doc = () => {
       <h4 className='mt-4'>GETTING STARTED</h4>
        <div className='contain'>
        <Link to="/Zealy_Doc/what_is_zealy/Create_your_community" >👏 Create your community</Link>
-        <a>🛬Create your first quest</a>
+        <Link to="/Zealy_Doc/what_is_zealy/CreateYourFirstQuest">🛬Create your first quest</Link>
        </div>
 
        <h4 className='mt-4'>GUIDES</h4>
        <div className='contain'>
-        <a className='mx-1'>🏠 Home</a>
+        <Link to="/Zealy_Doc/what_is_zealy/DocHome" className='mx-1'>🏠 Home</Link>
         
         <div class="btn-group dropdown">
-          <a>🤑Quest</a>
+          <Link to="/Zealy_Doc/what_is_zealy/Quests">🤑Quest</Link>
           <button type="button" class="dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span class="sr-only">Toggle Dropright</span>
           </button>
           <div class="dropdown-menu">
-            <a className='extend-bar'>Unlockable quest</a>
+            <Link to="/Zealy_Doc/what_is_zealy/Quests/UnlockableQuests" className='extend-bar'>Unlockable quest</Link>
           </div>
         </div>
 
         <div class="btn-group dropdown">
-          <a>🏆 Leaderboard</a>
+          <Link to="/Zealy_Doc/what_is_zealy/LeaderBoard">🏆 Leaderboard</Link>
           <button type="button" class="dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span class="sr-only">Toggle Dropright</span>
           </button>

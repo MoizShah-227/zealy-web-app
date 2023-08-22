@@ -16,6 +16,13 @@ import Welcome from './components/Pages/Welcome';
 import Zealy_Doc from './components/Pages/Zealy_Doc';
 import What_is_Zealy from './components/Pages/What_is_Zealy';
 import CreateYourCommunity from './components/Pages/CreateYourCommunity';
+import CreateYourFirstQuest from './components/Pages/CreateYourFirstQuest';
+import DocHome from './components/Pages/DocHome';
+import Quests from './components/Pages/Quests';
+import UnlockableQuests from './components/Pages/UnlockableQuests';
+import LeaderBoard from './components/Pages/LeaderBoard';
+import XPTable from './components/Pages/XPTable';
+
 const Home = () => {
   return (
     <div>
@@ -30,6 +37,14 @@ const Home = () => {
          
           <Route path="/Zealy_Doc/what_is_zealy" element={<What_is_Zealy/>}/>
           <Route path="/Zealy_Doc/what_is_zealy/Create_your_community" element={<CreateYourCommunity/>}/>
+          <Route path="/Zealy_Doc/what_is_zealy/CreateYourFirstQuest" element={<CreateYourFirstQuest/>}/>
+          <Route path="/Zealy_Doc/what_is_zealy/DocHome" element={<DocHome/>}/>
+          <Route path="/Zealy_Doc/what_is_zealy/Quests" element={<Quests/>}/>
+          <Route path="/Zealy_Doc/what_is_zealy/Quests/UnlockableQuests" element={<UnlockableQuests/>}/>
+          <Route path="/Zealy_Doc/what_is_zealy/LeaderBoard" element={<LeaderBoard/>}/>
+          <Route path="/Zealy_Doc/what_is_zealy/LeaderBoard/XPTable" element={<XPTable/>}/>
+
+
 
         </Routes>
       </Router>

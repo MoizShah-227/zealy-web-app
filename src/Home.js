@@ -27,6 +27,8 @@ import Reviews from './components/Pages/Reviews';
 import ExportingHistory from './components/Pages/ExportingHistory';
 import Integrations from './components/Pages/Integrations';
 import DiscordActivation from './components/Pages/DiscordActivation';
+import DiscordCommand from './components/Pages/DiscordCommand';
+import Roles from './components/Pages/Roles';
 
 
 const Home = () => {
@@ -54,6 +56,8 @@ const Home = () => {
           <Route path="/Zealy_Doc/what_is_zealy/Reviews/ExportingHistory" element={<ExportingHistory/>}/>
           <Route path="/Zealy_Doc/what_is_zealy/Integrations" element={<Integrations/>}/>
           <Route path="/Zealy_Doc/what_is_zealy/Integrations/DiscordActivation" element={<DiscordActivation/>}/>
+          <Route path="/Zealy_Doc/what_is_zealy/Integrations/DiscordCommand" element={<DiscordCommand/>}/>
+          <Route path="/Zealy_Doc/what_is_zealy/Roles" element={<Roles/>}/>
 
 
 

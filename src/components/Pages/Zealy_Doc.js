@@ -95,11 +95,11 @@ const Zealy_Doc = () => {
           </button>
           <div class="dropdown-menu">
             <Link to="/Zealy_Doc/what_is_zealy/Integrations/DiscordActivation" className='extend-bar'>Disord bot activation</Link>
-            <Link to="" className='extend-bar'>Disord bots commands</Link>
+            <Link to="/Zealy_Doc/what_is_zealy/Integrations/DiscordCommand" className='extend-bar'>Disord bots commands</Link>
           </div>
         </div>
 
-        <a className='mx-1'>✨ Roles</a>
+        <Link to="/Zealy_Doc/what_is_zealy/Roles" className='mx-1'>✨ Roles</Link>
         <a className='mx-1'>📊 Analytics</a>
         <a className='mx-1'>🦸‍♂️ Members</a>
 
